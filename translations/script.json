@@ -1,0 +1,4103 @@
+{
+ "_about": "Master translation script for Kamen Rider (Japan) SFC. One entry per string printed by the text routine $80:9E70 (inline Shift-JIS text inside code; '@' = end, '\\' = newline). rom_offset = PC file offset (unheadered ROM); orig_bytes includes the '@'. status: found | translated | inserted | n/a | lyric. english=null means convert the Japanese mechanically (digits/spaces only).",
+ "rom": {
+  "file": "Kamen Rider (Japan).sfc",
+  "crc32": "F3C44423",
+  "sha1": "70db2d8e6e98c9436f7c24d9b1cd03082e7d9fad",
+  "size": 1572864,
+  "mapping": "LoROM, 12 Mbit, no copier header"
+ },
+ "entries": [
+  {
+   "id": "credits_staff",
+   "rom_offset": "0x17FD84",
+   "encoding": "ASCII",
+   "context": "Staff credits block (already English, fixed-width 16-char fields)",
+   "japanese": "",
+   "english": "--  PRODUCE  -- J.SATO / --GAME DESIGN-- Y.TAKEYA / --   C.G.    -- K.YAMANE, N.AOKI / --  PROGRAM --  T.IWASAKI, H.KUWAMURA, K.SASAOKA / -- SP THANKS -- A.GUNJI, S.KOBAYASHI / 1993-08-26",
+   "status": "n/a",
+   "notes": "Already English. Possibly only shown in a hidden screen; confirm in-game."
+  },
+  {
+   "id": "t0061B2",
+   "rom_offset": "0x0061B2",
+   "snes_addr": "$80E1B2",
+   "orig_bytes": 57,
+   "position": {
+    "col": 2,
+    "row": 24
+   },
+   "japanese": "せまる ショッカー じごくのぐんだん",
+   "english": "Approaching Shocker! A terrifying army!",
+   "status": "lyric",
+   "notes": "Demo screen 2 of 13 (theme-song lyric, lyric slot 1). Bottom of screen, col 2 row 24; keep English <= 30 characters. Translator's own text.",
+   "lyric_slot": 1,
+   "demo_screen": 2
+  },
+  {
+   "id": "t0061FF",
+   "rom_offset": "0x0061FF",
+   "snes_addr": "$80E1FF",
+   "orig_bytes": 57,
+   "position": {
+    "col": 2,
+    "row": 24
+   },
+   "japanese": "われらをねらう くろいかげ せかいのへいわを まもるため",
+   "english": "A shadow hunts us! Protect the peace of the world...",
+   "status": "lyric",
+   "notes": "Demo screen 3 of 13 (theme-song lyric, lyric slot 2). Bottom of screen, col 2 row 24; keep English <= 30 characters. Translator's own text.",
+   "lyric_slot": 2,
+   "demo_screen": 3
+  },
+  {
+   "id": "t00624C",
+   "rom_offset": "0x00624C",
+   "snes_addr": "$80E24C",
+   "orig_bytes": 57,
+   "position": {
+    "col": 2,
+    "row": 24
+   },
+   "japanese": "ゴー ゴー レッツゴー かがやくマシン",
+   "english": "Go! Go! Let's Go, shining machine!",
+   "status": "lyric",
+   "notes": "Demo screen 4 of 13 (theme-song lyric, lyric slot 3). Bottom of screen, col 2 row 24; keep English <= 30 characters. Translator's own text.",
+   "lyric_slot": 3,
+   "demo_screen": 4
+  },
+  {
+   "id": "t006299",
+   "rom_offset": "0x006299",
+   "snes_addr": "$80E299",
+   "orig_bytes": 57,
+   "position": {
+    "col": 2,
+    "row": 24
+   },
+   "japanese": "ライダー ジャンプ ライダー キック",
+   "english": "Rider Jump! Rider Kick!",
+   "status": "lyric",
+   "notes": "Demo screen 5 of 13 (theme-song lyric, lyric slot 4). Bottom of screen, col 2 row 24; keep English <= 30 characters. Translator's own text. Screens 5/7 and 6/8 are the same line.",
+   "lyric_slot": 4,
+   "demo_screen": 5
+  },
+  {
+   "id": "t0062E6",
+   "rom_offset": "0x0062E6",
+   "snes_addr": "$80E2E6",
+   "orig_bytes": 57,
+   "position": {
+    "col": 2,
+    "row": 24
+   },
+   "japanese": "かめんライダー かめんライダー ライダー ライダー",
+   "english": "Kamen Rider! Kamen Rider! Rider! Rider!",
+   "status": "lyric",
+   "notes": "Demo screen 6 of 13 (theme-song lyric, lyric slot 5). Bottom of screen, col 2 row 24; keep English <= 30 characters. Translator's own text. Screens 5/7 and 6/8 are the same line.",
+   "lyric_slot": 5,
+   "demo_screen": 6
+  },
+  {
+   "id": "t006333",
+   "rom_offset": "0x006333",
+   "snes_addr": "$80E333",
+   "orig_bytes": 57,
+   "position": {
+    "col": 2,
+    "row": 24
+   },
+   "japanese": "ライダー ジャンプ ライダー キック",
+   "english": "Rider Jump! Rider Kick!",
+   "status": "lyric",
+   "notes": "Demo screen 7 of 13 (theme-song lyric, lyric slot 6). Bottom of screen, col 2 row 24; keep English <= 30 characters. Translator's own text. Screens 5/7 and 6/8 are the same line.",
+   "lyric_slot": 6,
+   "demo_screen": 7
+  },
+  {
+   "id": "t006380",
+   "rom_offset": "0x006380",
+   "snes_addr": "$80E380",
+   "orig_bytes": 57,
+   "position": {
+    "col": 2,
+    "row": 24
+   },
+   "japanese": "かめんライダー かめんライダー ライダー ライダー",
+   "english": "Kamen Rider! Kamen Rider! Rider! Rider!",
+   "status": "lyric",
+   "notes": "Demo screen 8 of 13 (theme-song lyric, lyric slot 7). Bottom of screen, col 2 row 24; keep English <= 30 characters. Translator's own text. Screens 5/7 and 6/8 are the same line.",
+   "lyric_slot": 7,
+   "demo_screen": 8
+  },
+  {
+   "id": "t0063CD",
+   "rom_offset": "0x0063CD",
+   "snes_addr": "$80E3CD",
+   "orig_bytes": 57,
+   "position": {
+    "col": 2,
+    "row": 24
+   },
+   "japanese": "",
+   "english": null,
+   "status": "n/a",
+   "notes": "Demo lyric slot 8 of 8 (shown in this order, bottom of screen, col 2 row 24; 28 characters wide). This slot is all spaces (clears the line); no text needed.",
+   "lyric_slot": 8
+  },
+  {
+   "id": "t006426",
+   "rom_offset": "0x006426",
+   "snes_addr": "$80E426",
+   "orig_bytes": 57,
+   "position": {
+    "col": 2,
+    "row": 24
+   },
+   "japanese": "仮面ライダー　本郷猛は　改造人間である　　　　　　　　　",
+   "english": "Kamen Rider Takeshi Hongo is a cyborg.",
+   "status": "translated",
+   "notes": "Demo screen 9 of 13. Opening narration from the TV show; English sentence flows across screens 9-13 (8x8 font: 2 lines of 28).",
+   "demo_screen": 9
+  },
+  {
+   "id": "t006471",
+   "rom_offset": "0x006471",
+   "snes_addr": "$80E471",
+   "orig_bytes": 57,
+   "position": {
+    "col": 2,
+    "row": 24
+   },
+   "japanese": "彼を改造したショッカーは　世界せいふくをたくらむ　　　　",
+   "english": "Shocker, who remade him, seeks to conquer the world.",
+   "status": "translated",
+   "notes": "Demo screen 10 of 13. Opening narration from the TV show; English sentence flows across screens 9-13 (8x8 font: 2 lines of 28).",
+   "demo_screen": 10
+  },
+  {
+   "id": "t0064BC",
+   "rom_offset": "0x0064BC",
+   "snes_addr": "$80E4BC",
+   "orig_bytes": 57,
+   "position": {
+    "col": 2,
+    "row": 24
+   },
+   "japanese": "悪の　秘密けっしゃである　　　　　　　　　　　　　　　　",
+   "english": "It is an evil secret society.",
+   "status": "translated",
+   "notes": "Demo screen 11 of 13. Opening narration from the TV show; English sentence flows across screens 9-13 (8x8 font: 2 lines of 28).",
+   "demo_screen": 11
+  },
+  {
+   "id": "t006507",
+   "rom_offset": "0x006507",
+   "snes_addr": "$80E507",
+   "orig_bytes": 57,
+   "position": {
+    "col": 2,
+    "row": 24
+   },
+   "japanese": "仮面ライダーは　人間のじゆうのために　　　　　　　　　　",
+   "english": "Kamen Rider fights for human freedom",
+   "status": "translated",
+   "notes": "Demo screen 12 of 13. Opening narration from the TV show; English sentence flows across screens 9-13 (8x8 font: 2 lines of 28).",
+   "demo_screen": 12
+  },
+  {
+   "id": "t006552",
+   "rom_offset": "0x006552",
+   "snes_addr": "$80E552",
+   "orig_bytes": 57,
+   "position": {
+    "col": 2,
+    "row": 24
+   },
+   "japanese": "今日も闘うのだ！　　　　　　　　　　　　　　　　　　　　",
+   "english": "today and every day!",
+   "status": "translated",
+   "notes": "Demo screen 13 of 13. Opening narration from the TV show; English sentence flows across screens 9-13 (8x8 font: 2 lines of 28).",
+   "demo_screen": 13
+  },
+  {
+   "id": "t00659D",
+   "rom_offset": "0x00659D",
+   "snes_addr": "$80E59D",
+   "orig_bytes": 57,
+   "position": {
+    "col": 2,
+    "row": 24
+   },
+   "japanese": "　　　　　　　　　　　　　　　ロケ地／日本ショッカー基地",
+   "english": "Location: Japan, Shocker Base",
+   "status": "translated",
+   "notes": "Demo screen 1 of 13. Caption shown first ('filming location'); ROM text is 基地 (base).",
+   "demo_screen": 1
+  },
+  {
+   "id": "t006762",
+   "rom_offset": "0x006762",
+   "snes_addr": "$80E762",
+   "orig_bytes": 31,
+   "position": {
+    "col": 8,
+    "row": 10
+   },
+   "japanese": "ＢＡＮＤＡＩ　ＰＲＥＳＥＮＴＳ",
+   "english": "BANDAI PRESENTS",
+   "status": "translated",
+   "notes": ""
+  },
+  {
+   "id": "t0068B3",
+   "rom_offset": "0x0068B3",
+   "snes_addr": "$80E8B3",
+   "orig_bytes": 45,
+   "position": {
+    "col": 3,
+    "row": 21
+   },
+   "japanese": "　　　　　　αβγδεζηθικλμνξοπ",
+   "english": null,
+   "status": "n/a",
+   "notes": "Greek letters α-π; never seen in game (checked 2026-09-28). Leave unchanged."
+  },
+  {
+   "id": "t0068EB",
+   "rom_offset": "0x0068EB",
+   "snes_addr": "$80E8EB",
+   "orig_bytes": 39,
+   "position": {
+    "col": 3,
+    "row": 23
+   },
+   "japanese": "　　　　　　αβＢＡＮＤＡＩ　１９９３",
+   "english": "BANDAI 1993",
+   "status": "translated",
+   "notes": ""
+  },
+  {
+   "id": "t0069A3",
+   "rom_offset": "0x0069A3",
+   "snes_addr": "$80E9A3",
+   "orig_bytes": 61,
+   "position": {
+    "col": 1,
+    "row": 17
+   },
+   "japanese": "　　　→ＧＡＭＥ　ＳＴＡＲＴ　　ＳＳＩ　ＳＹＳＴＥＭ　　　　",
+   "english": "   >GAME START  SSI SYSTEM    ",
+   "status": "translated",
+   "notes": ""
+  },
+  {
+   "id": "t006A84",
+   "rom_offset": "0x006A84",
+   "snes_addr": "$80EA84",
+   "orig_bytes": 61,
+   "position": {
+    "col": 1,
+    "row": 17
+   },
+   "japanese": "→１　ＰＬＡＹＥＲ　　２　ＰＬＡＹＥＲＳ　　ＰＡＳＳＷＯＲＤ",
+   "english": ">1 PLAYER  2 PLAYERS  PASSWORD",
+   "status": "translated",
+   "notes": ""
+  },
+  {
+   "id": "t006ACF",
+   "rom_offset": "0x006ACF",
+   "snes_addr": "$80EACF",
+   "orig_bytes": 61,
+   "position": {
+    "col": 1,
+    "row": 17
+   },
+   "japanese": "　１　ＰＬＡＹＥＲ　→２　ＰＬＡＹＥＲＳ　　ＰＡＳＳＷＯＲＤ",
+   "english": " 1 PLAYER >2 PLAYERS  PASSWORD",
+   "status": "translated",
+   "notes": ""
+  },
+  {
+   "id": "t006B1A",
+   "rom_offset": "0x006B1A",
+   "snes_addr": "$80EB1A",
+   "orig_bytes": 61,
+   "position": {
+    "col": 1,
+    "row": 17
+   },
+   "japanese": "　１　ＰＬＡＹＥＲ　　２　ＰＬＡＹＥＲＳ　→ＰＡＳＳＷＯＲＤ",
+   "english": " 1 PLAYER  2 PLAYERS >PASSWORD",
+   "status": "translated",
+   "notes": ""
+  },
+  {
+   "id": "t006B65",
+   "rom_offset": "0x006B65",
+   "snes_addr": "$80EB65",
+   "orig_bytes": 61,
+   "position": {
+    "col": 1,
+    "row": 17
+   },
+   "japanese": "　　→ＳＴＡＲＴ　　ＳＳＩ　ＳＹＳＴＥＭ　　ＯＰＴＩＯＮ　　",
+   "english": "  >START  SSI SYSTEM  OPTION  ",
+   "status": "translated",
+   "notes": ""
+  },
+  {
+   "id": "t006BB0",
+   "rom_offset": "0x006BB0",
+   "snes_addr": "$80EBB0",
+   "orig_bytes": 61,
+   "position": {
+    "col": 1,
+    "row": 17
+   },
+   "japanese": "　　　ＳＴＡＲＴ　→ＳＳＩ　ＳＹＳＴＥＭ　　ＯＰＴＩＯＮ　　",
+   "english": "   START >SSI SYSTEM  OPTION  ",
+   "status": "translated",
+   "notes": ""
+  },
+  {
+   "id": "t006BFB",
+   "rom_offset": "0x006BFB",
+   "snes_addr": "$80EBFB",
+   "orig_bytes": 61,
+   "position": {
+    "col": 1,
+    "row": 17
+   },
+   "japanese": "　　　ＳＴＡＲＴ　　ＳＳＩ　ＳＹＳＴＥＭ　→ＯＰＴＩＯＮ　　",
+   "english": "   START  SSI SYSTEM >OPTION  ",
+   "status": "translated",
+   "notes": ""
+  },
+  {
+   "id": "t010440",
+   "rom_offset": "0x010440",
+   "snes_addr": "$828440",
+   "orig_bytes": 63,
+   "position": {
+    "col": 1,
+    "row": 3
+   },
+   "japanese": "１９××年　日本各地に　突然ショッカーの改造人間が出現し始めた",
+   "english": "19XX. Shocker cyborgs begin appearing all over Japan.",
+   "status": "translated",
+   "notes": ""
+  },
+  {
+   "id": "t01048A",
+   "rom_offset": "0x01048A",
+   "snes_addr": "$82848A",
+   "orig_bytes": 49,
+   "position": {
+    "col": 1,
+    "row": 6
+   },
+   "japanese": "なぜ　誰が　何の為に　改造人間たちを蘇らせたのか",
+   "english": "Who revived them, and why?",
+   "status": "translated",
+   "notes": ""
+  },
+  {
+   "id": "t0104C6",
+   "rom_offset": "0x0104C6",
+   "snes_addr": "$8284C6",
+   "orig_bytes": 43,
+   "position": {
+    "col": 1,
+    "row": 9
+   },
+   "japanese": "様々な疑惑をよそに　市民を襲う　ショッカー",
+   "english": "Shocker preys on the people as suspicion grows.",
+   "status": "translated",
+   "notes": ""
+  },
+  {
+   "id": "t0104FC",
+   "rom_offset": "0x0104FC",
+   "snes_addr": "$8284FC",
+   "orig_bytes": 43,
+   "position": {
+    "col": 1,
+    "row": 12
+   },
+   "japanese": "しかし　市民の中にも　抵抗を試みる者もいた",
+   "english": "But some citizens fought back.",
+   "status": "translated",
+   "notes": ""
+  },
+  {
+   "id": "t010541",
+   "rom_offset": "0x010541",
+   "snes_addr": "$828541",
+   "orig_bytes": 35,
+   "position": {
+    "col": 2,
+    "row": 3
+   },
+   "japanese": "立花藤兵衛も　その中の一人だった！",
+   "english": "Tobei Tachibana was one.",
+   "status": "translated",
+   "notes": ""
+  },
+  {
+   "id": "t01056F",
+   "rom_offset": "0x01056F",
+   "snes_addr": "$82856F",
+   "orig_bytes": 49,
+   "position": {
+    "col": 2,
+    "row": 6
+   },
+   "japanese": "かなうはずもない戦闘員に　立ち向かおうとしたとき",
+   "english": "As he faced Shocker henchmen he could not hope to defeat,",
+   "status": "translated",
+   "notes": ""
+  },
+  {
+   "id": "t0105AB",
+   "rom_offset": "0x0105AB",
+   "snes_addr": "$8285AB",
+   "orig_bytes": 25,
+   "position": {
+    "col": 2,
+    "row": 9
+   },
+   "japanese": "その肩を叩くものがあった",
+   "english": "a hand tapped his shoulder.",
+   "status": "translated",
+   "notes": ""
+  },
+  {
+   "id": "t0105D5",
+   "rom_offset": "0x0105D5",
+   "snes_addr": "$8285D5",
+   "orig_bytes": 35,
+   "position": {
+    "col": 2,
+    "row": 3
+   },
+   "japanese": "「猛！隼人！おまえたちいったい！」",
+   "english": "\"Takeshi! Hayato! What are you two doing here?!\"",
+   "status": "translated",
+   "notes": ""
+  },
+  {
+   "id": "t010603",
+   "rom_offset": "0x010603",
+   "snes_addr": "$828603",
+   "orig_bytes": 45,
+   "position": {
+    "col": 2,
+    "row": 6
+   },
+   "japanese": "「おやっさん　ここは俺達に任せてください！」",
+   "english": "\"Pops, leave this to us!\"",
+   "status": "translated",
+   "notes": ""
+  },
+  {
+   "id": "t01063B",
+   "rom_offset": "0x01063B",
+   "snes_addr": "$82863B",
+   "orig_bytes": 55,
+   "position": {
+    "col": 2,
+    "row": 9
+   },
+   "japanese": "二人は　ショッカー復活を聞き付け　急遽帰国していたのだ",
+   "english": "Hearing Shocker had returned, the two had rushed home to Japan.",
+   "status": "translated",
+   "notes": ""
+  },
+  {
+   "id": "t010683",
+   "rom_offset": "0x010683",
+   "snes_addr": "$828683",
+   "orig_bytes": 51,
+   "position": {
+    "col": 2,
+    "row": 3
+   },
+   "japanese": "藤兵衛に代わり　ショッカーを叩きのめす　Ｗライダー",
+   "english": "Taking Tobei's place, the Double Riders crush Shocker!",
+   "status": "translated",
+   "notes": ""
+  },
+  {
+   "id": "t0106C7",
+   "rom_offset": "0x0106C7",
+   "snes_addr": "$8286C7",
+   "orig_bytes": 33,
+   "position": {
+    "col": 2,
+    "row": 3
+   },
+   "japanese": "今ここに　仮面ライダーは復活した",
+   "english": "Here and now, Kamen Rider is reborn!",
+   "status": "translated",
+   "notes": ""
+  },
+  {
+   "id": "t010A58",
+   "rom_offset": "0x010A58",
+   "snes_addr": "$828A58",
+   "orig_bytes": 41,
+   "position": {
+    "col": 2,
+    "row": 19
+   },
+   "japanese": "藤兵衛に敵アジトの場所を聞いたライダーは",
+   "english": "Tobei told the Riders where the enemy hideout was,",
+   "status": "translated",
+   "notes": ""
+  },
+  {
+   "id": "t010A8C",
+   "rom_offset": "0x010A8C",
+   "snes_addr": "$828A8C",
+   "orig_bytes": 29,
+   "position": {
+    "col": 2,
+    "row": 23
+   },
+   "japanese": "早速　向かっていったのだった",
+   "english": "and they set out at once.",
+   "status": "translated",
+   "notes": ""
+  },
+  {
+   "id": "t010B06",
+   "rom_offset": "0x010B06",
+   "snes_addr": "$828B06",
+   "orig_bytes": 55,
+   "position": {
+    "col": 2,
+    "row": 19
+   },
+   "japanese": "「よく来た　仮面ライダー　貴様らは我々の罠に　まんまと",
+   "english": "\"Welcome, Kamen Riders. You fell right into",
+   "status": "translated",
+   "notes": ""
+  },
+  {
+   "id": "t010B48",
+   "rom_offset": "0x010B48",
+   "snes_addr": "$828B48",
+   "orig_bytes": 21,
+   "position": {
+    "col": 2,
+    "row": 23
+   },
+   "japanese": "引っ掛かったのだ！」",
+   "english": "our trap!\"",
+   "status": "translated",
+   "notes": ""
+  },
+  {
+   "id": "t010B6B",
+   "rom_offset": "0x010B6B",
+   "snes_addr": "$828B6B",
+   "orig_bytes": 19,
+   "position": {
+    "col": 2,
+    "row": 19
+   },
+   "japanese": "「どういう事だ！」",
+   "english": "\"What do you mean?!\"",
+   "status": "translated",
+   "notes": ""
+  },
+  {
+   "id": "t010B89",
+   "rom_offset": "0x010B89",
+   "snes_addr": "$828B89",
+   "orig_bytes": 51,
+   "position": {
+    "col": 2,
+    "row": 23
+   },
+   "japanese": "「我々は　かつてのショッカー大幹部を復活させるため",
+   "english": "\"To revive Shocker's former top commanders,",
+   "status": "translated",
+   "notes": ""
+  },
+  {
+   "id": "t010BCA",
+   "rom_offset": "0x010BCA",
+   "snes_addr": "$828BCA",
+   "orig_bytes": 41,
+   "position": {
+    "col": 2,
+    "row": 19
+   },
+   "japanese": "細胞超活性化装置を使った大プロジェクトを",
+   "english": "we are running a grand project using a",
+   "status": "translated",
+   "notes": ""
+  },
+  {
+   "id": "t010BFE",
+   "rom_offset": "0x010BFE",
+   "snes_addr": "$828BFE",
+   "orig_bytes": 19,
+   "position": {
+    "col": 2,
+    "row": 23
+   },
+   "japanese": "進行させているのだ",
+   "english": "Cell Hyper-Activator.",
+   "status": "translated",
+   "notes": ""
+  },
+  {
+   "id": "t010C1F",
+   "rom_offset": "0x010C1F",
+   "snes_addr": "$828C1F",
+   "orig_bytes": 61,
+   "position": {
+    "col": 2,
+    "row": 19
+   },
+   "japanese": "おまえ達が邪魔をするのは　解っていた　この基地にも用はない！",
+   "english": "We knew you would interfere. We have no more use for this base!",
+   "status": "translated",
+   "notes": ""
+  },
+  {
+   "id": "t010C67",
+   "rom_offset": "0x010C67",
+   "snes_addr": "$828C67",
+   "orig_bytes": 9,
+   "position": {
+    "col": 2,
+    "row": 23
+   },
+   "japanese": "死ね！」",
+   "english": "Die!\"",
+   "status": "translated",
+   "notes": ""
+  },
+  {
+   "id": "t010C7E",
+   "rom_offset": "0x010C7E",
+   "snes_addr": "$828C7E",
+   "orig_bytes": 35,
+   "position": {
+    "col": 2,
+    "row": 19
+   },
+   "japanese": "「いかん　爆発する！　脱出だ！！」",
+   "english": "\"Oh no! It's going to blow! Get out!!\"",
+   "status": "translated",
+   "notes": ""
+  },
+  {
+   "id": "t010CDB",
+   "rom_offset": "0x010CDB",
+   "snes_addr": "$828CDB",
+   "orig_bytes": 49,
+   "position": {
+    "col": 2,
+    "row": 19
+   },
+   "japanese": "危機一髪の所で　脱出したライダーは　立花藤兵衛に",
+   "english": "Escaping in the nick of time, the Riders",
+   "status": "translated",
+   "notes": ""
+  },
+  {
+   "id": "t010D17",
+   "rom_offset": "0x010D17",
+   "snes_addr": "$828D17",
+   "orig_bytes": 31,
+   "position": {
+    "col": 2,
+    "row": 23
+   },
+   "japanese": "謎のメッセージの事を知らされた",
+   "english": "heard from Tobei about a mysterious message.",
+   "status": "translated",
+   "notes": ""
+  },
+  {
+   "id": "t010D44",
+   "rom_offset": "0x010D44",
+   "snes_addr": "$828D44",
+   "orig_bytes": 33,
+   "position": {
+    "col": 2,
+    "row": 19
+   },
+   "japanese": "ショッカー　ダイカンブ　フッカツ",
+   "english": "SHOCKER PLANS TOP BRASS REVIVAL",
+   "status": "translated",
+   "notes": ""
+  },
+  {
+   "id": "t010D70",
+   "rom_offset": "0x010D70",
+   "snes_addr": "$828D70",
+   "orig_bytes": 25,
+   "position": {
+    "col": 2,
+    "row": 23
+   },
+   "japanese": "ジョウナンダイガクニアル",
+   "english": "JOHNAN UNIVERSITY HAS",
+   "status": "translated",
+   "notes": ""
+  },
+  {
+   "id": "t010D97",
+   "rom_offset": "0x010D97",
+   "snes_addr": "$828D97",
+   "orig_bytes": 33,
+   "position": {
+    "col": 2,
+    "row": 19
+   },
+   "japanese": "サイボウチョウカッセイカソウチノ",
+   "english": "CELL HYPER-ACTIVATOR",
+   "status": "translated",
+   "notes": ""
+  },
+  {
+   "id": "t010DC3",
+   "rom_offset": "0x010DC3",
+   "snes_addr": "$828DC3",
+   "orig_bytes": 41,
+   "position": {
+    "col": 2,
+    "row": 23
+   },
+   "japanese": "エネルギーキョウキュウソウチセッケイズヲ",
+   "english": "ENERGY SUPPLY UNIT BLUEPRINTS",
+   "status": "translated",
+   "notes": ""
+  },
+  {
+   "id": "t010DFA",
+   "rom_offset": "0x010DFA",
+   "snes_addr": "$828DFA",
+   "orig_bytes": 31,
+   "position": {
+    "col": 2,
+    "row": 19
+   },
+   "japanese": "ネラッテイル　ヤツラニワタスナ",
+   "english": "THEY WANT THEM - DO NOT LET THEM HAVE THEM",
+   "status": "translated",
+   "notes": ""
+  },
+  {
+   "id": "t010E27",
+   "rom_offset": "0x010E27",
+   "snes_addr": "$828E27",
+   "orig_bytes": 39,
+   "position": {
+    "col": 2,
+    "row": 19
+   },
+   "japanese": "「エネルギー供給装置だと！　おやっさん",
+   "english": "\"An energy supply unit?! Pops,",
+   "status": "translated",
+   "notes": ""
+  },
+  {
+   "id": "t010E59",
+   "rom_offset": "0x010E59",
+   "snes_addr": "$828E59",
+   "orig_bytes": 23,
+   "position": {
+    "col": 2,
+    "row": 23
+   },
+   "japanese": "これは何かありますね」",
+   "english": "something's going on here.\"",
+   "status": "translated",
+   "notes": ""
+  },
+  {
+   "id": "t010E7E",
+   "rom_offset": "0x010E7E",
+   "snes_addr": "$828E7E",
+   "orig_bytes": 49,
+   "position": {
+    "col": 2,
+    "row": 19
+   },
+   "japanese": "「うむ　おまえ達　すぐに城南大学へ行ってくれ！」",
+   "english": "\"Right. You two, get to Johnan University now!\"",
+   "status": "translated",
+   "notes": ""
+  },
+  {
+   "id": "t010EEC",
+   "rom_offset": "0x010EEC",
+   "snes_addr": "$828EEC",
+   "orig_bytes": 47,
+   "position": {
+    "col": 2,
+    "row": 19
+   },
+   "japanese": "「これがあの　エネルギー供給装置設計図か！？」",
+   "english": "\"So these are the energy supply unit blueprints?!\"",
+   "status": "translated",
+   "notes": ""
+  },
+  {
+   "id": "t010F26",
+   "rom_offset": "0x010F26",
+   "snes_addr": "$828F26",
+   "orig_bytes": 53,
+   "position": {
+    "col": 2,
+    "row": 23
+   },
+   "japanese": "「いったい　ショッカーは　何を企んでいるんだ・・・」",
+   "english": "\"What on earth is Shocker plotting...?\"",
+   "status": "translated",
+   "notes": ""
+  },
+  {
+   "id": "t010F95",
+   "rom_offset": "0x010F95",
+   "snes_addr": "$828F95",
+   "orig_bytes": 29,
+   "position": {
+    "col": 2,
+    "row": 19
+   },
+   "japanese": "度重なるライダーの妨害により",
+   "english": "Thanks to the Riders' repeated interference,",
+   "status": "translated",
+   "notes": ""
+  },
+  {
+   "id": "t010FBD",
+   "rom_offset": "0x010FBD",
+   "snes_addr": "$828FBD",
+   "orig_bytes": 37,
+   "position": {
+    "col": 2,
+    "row": 23
+   },
+   "japanese": "ショッカーの計画に遅れが出始めていた",
+   "english": "Shocker's plans were falling behind.",
+   "status": "translated",
+   "notes": ""
+  },
+  {
+   "id": "t010FF0",
+   "rom_offset": "0x010FF0",
+   "snes_addr": "$828FF0",
+   "orig_bytes": 39,
+   "position": {
+    "col": 2,
+    "row": 19
+   },
+   "japanese": "「ええい　この度重なる失敗　おまえたち",
+   "english": "\"Enough! Failure after failure! How",
+   "status": "translated",
+   "notes": ""
+  },
+  {
+   "id": "t011022",
+   "rom_offset": "0x011022",
+   "snes_addr": "$829022",
+   "orig_bytes": 19,
+   "position": {
+    "col": 2,
+    "row": 23
+   },
+   "japanese": "どう説明する気だ！",
+   "english": "do you plan to explain this?!",
+   "status": "translated",
+   "notes": ""
+  },
+  {
+   "id": "t011043",
+   "rom_offset": "0x011043",
+   "snes_addr": "$829043",
+   "orig_bytes": 45,
+   "position": {
+    "col": 2,
+    "row": 19
+   },
+   "japanese": "再生ショッカー怪人は　本来の力を取り戻すのに",
+   "english": "\"Revived Shocker monsters take time",
+   "status": "translated",
+   "notes": ""
+  },
+  {
+   "id": "t01107B",
+   "rom_offset": "0x01107B",
+   "snes_addr": "$82907B",
+   "orig_bytes": 17,
+   "position": {
+    "col": 2,
+    "row": 23
+   },
+   "japanese": "時間が掛かるのだ",
+   "english": "to regain their original power.",
+   "status": "translated",
+   "notes": ""
+  },
+  {
+   "id": "t01109A",
+   "rom_offset": "0x01109A",
+   "snes_addr": "$82909A",
+   "orig_bytes": 35,
+   "position": {
+    "col": 2,
+    "row": 19
+   },
+   "japanese": "エネルギー供給装置さえ完成させれば",
+   "english": "If the energy supply unit were finished,",
+   "status": "translated",
+   "notes": ""
+  },
+  {
+   "id": "t0110C8",
+   "rom_offset": "0x0110C8",
+   "snes_addr": "$8290C8",
+   "orig_bytes": 31,
+   "position": {
+    "col": 2,
+    "row": 23
+   },
+   "japanese": "瞬時にフルパワー状態になれる！",
+   "english": "they would reach full power instantly!",
+   "status": "translated",
+   "notes": ""
+  },
+  {
+   "id": "t0110F5",
+   "rom_offset": "0x0110F5",
+   "snes_addr": "$8290F5",
+   "orig_bytes": 33,
+   "position": {
+    "col": 2,
+    "row": 19
+   },
+   "japanese": "このプロジェクトを成功させるには",
+   "english": "To make this project a success,",
+   "status": "translated",
+   "notes": ""
+  },
+  {
+   "id": "t011121",
+   "rom_offset": "0x011121",
+   "snes_addr": "$829121",
+   "orig_bytes": 21,
+   "position": {
+    "col": 2,
+    "row": 23
+   },
+   "japanese": "絶対に必要なのだ！」",
+   "english": "we absolutely need that unit!\"",
+   "status": "translated",
+   "notes": ""
+  },
+  {
+   "id": "t011144",
+   "rom_offset": "0x011144",
+   "snes_addr": "$829144",
+   "orig_bytes": 15,
+   "position": {
+    "col": 2,
+    "row": 19
+   },
+   "japanese": "「ご安心下さい",
+   "english": "\"Rest assured, sir.",
+   "status": "translated",
+   "notes": ""
+  },
+  {
+   "id": "t01115E",
+   "rom_offset": "0x01115E",
+   "snes_addr": "$82915E",
+   "orig_bytes": 49,
+   "position": {
+    "col": 2,
+    "row": 23
+   },
+   "japanese": "我々はすでに　立花藤兵衛の誘拐に成功しております",
+   "english": "We have already kidnapped Tobei Tachibana.",
+   "status": "translated",
+   "notes": ""
+  },
+  {
+   "id": "t011226",
+   "rom_offset": "0x011226",
+   "snes_addr": "$829226",
+   "orig_bytes": 49,
+   "position": {
+    "col": 2,
+    "row": 19
+   },
+   "japanese": "藤兵衛と引き替えに　設計図を持ってこさせるのです",
+   "english": "We will make them bring the blueprints in exchange for him.",
+   "status": "translated",
+   "notes": ""
+  },
+  {
+   "id": "t011265",
+   "rom_offset": "0x011265",
+   "snes_addr": "$829265",
+   "orig_bytes": 43,
+   "position": {
+    "col": 2,
+    "row": 19
+   },
+   "japanese": "ライダー達も　藤兵衛を人質に取られていては",
+   "english": "With Tobei as our hostage, the Riders",
+   "status": "translated",
+   "notes": ""
+  },
+  {
+   "id": "t01129B",
+   "rom_offset": "0x01129B",
+   "snes_addr": "$82929B",
+   "orig_bytes": 25,
+   "position": {
+    "col": 2,
+    "row": 23
+   },
+   "japanese": "手も足もでないはずです」",
+   "english": "will be powerless to act.\"",
+   "status": "translated",
+   "notes": ""
+  },
+  {
+   "id": "t0112C2",
+   "rom_offset": "0x0112C2",
+   "snes_addr": "$8292C2",
+   "orig_bytes": 27,
+   "position": {
+    "col": 2,
+    "row": 19
+   },
+   "japanese": "「なるほど　考えたな・・・",
+   "english": "\"I see. Clever...",
+   "status": "translated",
+   "notes": ""
+  },
+  {
+   "id": "t0112EB",
+   "rom_offset": "0x0112EB",
+   "snes_addr": "$8292EB",
+   "orig_bytes": 47,
+   "position": {
+    "col": 2,
+    "row": 19
+   },
+   "japanese": "フッフッフッ　ライダーめ！今度こそ我々の勝利だ",
+   "english": "Heh heh heh. Riders! This time victory is ours!",
+   "status": "translated",
+   "notes": ""
+  },
+  {
+   "id": "t011325",
+   "rom_offset": "0x011325",
+   "snes_addr": "$829325",
+   "orig_bytes": 37,
+   "position": {
+    "col": 2,
+    "row": 23
+   },
+   "japanese": "おいっ！　すぐに作戦に取り掛かれ！」",
+   "english": "You! Carry out the plan at once!\"",
+   "status": "translated",
+   "notes": ""
+  },
+  {
+   "id": "t011387",
+   "rom_offset": "0x011387",
+   "snes_addr": "$829387",
+   "orig_bytes": 37,
+   "position": {
+    "col": 2,
+    "row": 19
+   },
+   "japanese": "「まてっ！　その設計図を渡すなっ！」",
+   "english": "\"Stop! Don't hand over those blueprints!\"",
+   "status": "translated",
+   "notes": ""
+  },
+  {
+   "id": "t0113BA",
+   "rom_offset": "0x0113BA",
+   "snes_addr": "$8293BA",
+   "orig_bytes": 27,
+   "position": {
+    "col": 2,
+    "row": 19
+   },
+   "japanese": "「滝！　どうしてここに！」",
+   "english": "\"Taki! What are you doing here?!\"",
+   "status": "translated",
+   "notes": ""
+  },
+  {
+   "id": "t0113E3",
+   "rom_offset": "0x0113E3",
+   "snes_addr": "$8293E3",
+   "orig_bytes": 53,
+   "position": {
+    "col": 2,
+    "row": 19
+   },
+   "japanese": "滝一也　ＦＢＩ捜査官の彼も　ショッカー復活を聞き付け",
+   "english": "FBI agent Kazuya Taki had also heard of Shocker's return",
+   "status": "translated",
+   "notes": ""
+  },
+  {
+   "id": "t011423",
+   "rom_offset": "0x011423",
+   "snes_addr": "$829423",
+   "orig_bytes": 25,
+   "position": {
+    "col": 2,
+    "row": 23
+   },
+   "japanese": "急遽舞い戻ってきていた。",
+   "english": "and hurried back to Japan.",
+   "status": "translated",
+   "notes": ""
+  },
+  {
+   "id": "t01144A",
+   "rom_offset": "0x01144A",
+   "snes_addr": "$82944A",
+   "orig_bytes": 47,
+   "position": {
+    "col": 2,
+    "row": 19
+   },
+   "japanese": "あの謎のメッセージも　彼が送ったものだったのだ",
+   "english": "He was the one who sent that mysterious message!",
+   "status": "translated",
+   "notes": ""
+  },
+  {
+   "id": "t011487",
+   "rom_offset": "0x011487",
+   "snes_addr": "$829487",
+   "orig_bytes": 45,
+   "position": {
+    "col": 2,
+    "row": 19
+   },
+   "japanese": "「今のうちに　おやっさんを　助け出すんだ！」",
+   "english": "\"Now's our chance! Get Pops out of here!\"",
+   "status": "translated",
+   "notes": ""
+  },
+  {
+   "id": "t0114EE",
+   "rom_offset": "0x0114EE",
+   "snes_addr": "$8294EE",
+   "orig_bytes": 29,
+   "position": {
+    "col": 2,
+    "row": 19
+   },
+   "japanese": "ライダー達は　滝の助けにより",
+   "english": "With Taki's help, the Riders",
+   "status": "translated",
+   "notes": ""
+  },
+  {
+   "id": "t011516",
+   "rom_offset": "0x011516",
+   "snes_addr": "$829516",
+   "orig_bytes": 29,
+   "position": {
+    "col": 2,
+    "row": 23
+   },
+   "japanese": "藤兵衛を助け出す事に成功した",
+   "english": "managed to rescue Tobei.",
+   "status": "translated",
+   "notes": ""
+  },
+  {
+   "id": "t011541",
+   "rom_offset": "0x011541",
+   "snes_addr": "$829541",
+   "orig_bytes": 35,
+   "position": {
+    "col": 2,
+    "row": 19
+   },
+   "japanese": "しかし　設計図は　ショッカーの手に",
+   "english": "But the blueprints fell into",
+   "status": "translated",
+   "notes": ""
+  },
+  {
+   "id": "t01156F",
+   "rom_offset": "0x01156F",
+   "snes_addr": "$82956F",
+   "orig_bytes": 25,
+   "position": {
+    "col": 2,
+    "row": 23
+   },
+   "japanese": "わたってしまったのだった",
+   "english": "Shocker's hands.",
+   "status": "translated",
+   "notes": ""
+  },
+  {
+   "id": "t0115C2",
+   "rom_offset": "0x0115C2",
+   "snes_addr": "$8295C2",
+   "orig_bytes": 31,
+   "position": {
+    "col": 2,
+    "row": 19
+   },
+   "japanese": "ショッカーに設計図を奪われたが",
+   "english": "Shocker had stolen the blueprints, but",
+   "status": "translated",
+   "notes": ""
+  },
+  {
+   "id": "t0115EC",
+   "rom_offset": "0x0115EC",
+   "snes_addr": "$8295EC",
+   "orig_bytes": 51,
+   "position": {
+    "col": 2,
+    "row": 23
+   },
+   "japanese": "ライダーは設計図に　発信機を取り付けていたのだった",
+   "english": "the Riders had planted a tracker on them.",
+   "status": "translated",
+   "notes": ""
+  },
+  {
+   "id": "t01162D",
+   "rom_offset": "0x01162D",
+   "snes_addr": "$82962D",
+   "orig_bytes": 47,
+   "position": {
+    "col": 2,
+    "row": 19
+   },
+   "japanese": "「どうやら　これはダムに向かっているようだな」",
+   "english": "\"Looks like it's heading for the dam.\"",
+   "status": "translated",
+   "notes": ""
+  },
+  {
+   "id": "t01166A",
+   "rom_offset": "0x01166A",
+   "snes_addr": "$82966A",
+   "orig_bytes": 41,
+   "position": {
+    "col": 2,
+    "row": 19
+   },
+   "japanese": "「そうか！　やつらはエネルギーの供給源に",
+   "english": "\"I get it! They're going to use the dam's",
+   "status": "translated",
+   "notes": ""
+  },
+  {
+   "id": "t01169E",
+   "rom_offset": "0x01169E",
+   "snes_addr": "$82969E",
+   "orig_bytes": 37,
+   "position": {
+    "col": 2,
+    "row": 23
+   },
+   "japanese": "ダムの巨大なパワーを利用する気だ！」",
+   "english": "huge power as their energy source!\"",
+   "status": "translated",
+   "notes": ""
+  },
+  {
+   "id": "t0116D1",
+   "rom_offset": "0x0116D1",
+   "snes_addr": "$8296D1",
+   "orig_bytes": 39,
+   "position": {
+    "col": 2,
+    "row": 19
+   },
+   "japanese": "「そうはさせるかっ！　よし行くぞ！！」",
+   "english": "\"Not if we can help it! Let's go!!\"",
+   "status": "translated",
+   "notes": ""
+  },
+  {
+   "id": "t011735",
+   "rom_offset": "0x011735",
+   "snes_addr": "$829735",
+   "orig_bytes": 25,
+   "position": {
+    "col": 2,
+    "row": 19
+   },
+   "japanese": "「ライダー　聞こえるかっ",
+   "english": "\"Riders, can you hear me?",
+   "status": "translated",
+   "notes": ""
+  },
+  {
+   "id": "t011759",
+   "rom_offset": "0x011759",
+   "snes_addr": "$829759",
+   "orig_bytes": 31,
+   "position": {
+    "col": 2,
+    "row": 23
+   },
+   "japanese": "やつらの本拠地を　滝が掴んだ！",
+   "english": "Taki found their headquarters!",
+   "status": "translated",
+   "notes": ""
+  },
+  {
+   "id": "t011786",
+   "rom_offset": "0x011786",
+   "snes_addr": "$829786",
+   "orig_bytes": 39,
+   "position": {
+    "col": 2,
+    "row": 19
+   },
+   "japanese": "細胞超活性化装置はそこにあるらしい！」",
+   "english": "The Cell Hyper-Activator must be there!\"",
+   "status": "translated",
+   "notes": ""
+  },
+  {
+   "id": "t0117B8",
+   "rom_offset": "0x0117B8",
+   "snes_addr": "$8297B8",
+   "orig_bytes": 17,
+   "position": {
+    "col": 2,
+    "row": 23
+   },
+   "japanese": "「本当ですか！」",
+   "english": "\"Really?!\"",
+   "status": "translated",
+   "notes": ""
+  },
+  {
+   "id": "t0117D7",
+   "rom_offset": "0x0117D7",
+   "snes_addr": "$8297D7",
+   "orig_bytes": 51,
+   "position": {
+    "col": 2,
+    "row": 19
+   },
+   "japanese": "「すぐに本部へ戻ってくれ　詳しくは戻ってからだ！」",
+   "english": "\"Come back to base now. I'll explain when you get here!\"",
+   "status": "translated",
+   "notes": ""
+  },
+  {
+   "id": "t011857",
+   "rom_offset": "0x011857",
+   "snes_addr": "$829857",
+   "orig_bytes": 39,
+   "position": {
+    "col": 2,
+    "row": 19
+   },
+   "japanese": "滝の捜索によって　ショッカー秘密基地が",
+   "english": "Thanks to Taki's search, they learned",
+   "status": "translated",
+   "notes": ""
+  },
+  {
+   "id": "t011889",
+   "rom_offset": "0x011889",
+   "snes_addr": "$829889",
+   "orig_bytes": 29,
+   "position": {
+    "col": 2,
+    "row": 23
+   },
+   "japanese": "遊園地内にあることがわかった",
+   "english": "a secret Shocker base was in an amusement park.",
+   "status": "translated",
+   "notes": ""
+  },
+  {
+   "id": "t0118B4",
+   "rom_offset": "0x0118B4",
+   "snes_addr": "$8298B4",
+   "orig_bytes": 15,
+   "position": {
+    "col": 2,
+    "row": 19
+   },
+   "japanese": "「ここか！？」",
+   "english": "\"This is it?!\"",
+   "status": "translated",
+   "notes": ""
+  },
+  {
+   "id": "t0118D1",
+   "rom_offset": "0x0118D1",
+   "snes_addr": "$8298D1",
+   "orig_bytes": 25,
+   "position": {
+    "col": 2,
+    "row": 19
+   },
+   "japanese": "「ショッカーめ　考えたな",
+   "english": "\"Clever, Shocker.",
+   "status": "translated",
+   "notes": ""
+  },
+  {
+   "id": "t0118F5",
+   "rom_offset": "0x0118F5",
+   "snes_addr": "$8298F5",
+   "orig_bytes": 35,
+   "position": {
+    "col": 2,
+    "row": 23
+   },
+   "japanese": "ここなら　誰にも疑われない場所だ」",
+   "english": "Nobody would suspect a place like this.\"",
+   "status": "translated",
+   "notes": ""
+  },
+  {
+   "id": "t011926",
+   "rom_offset": "0x011926",
+   "snes_addr": "$829926",
+   "orig_bytes": 43,
+   "position": {
+    "col": 2,
+    "row": 19
+   },
+   "japanese": "「よしっ　一気に叩き潰してやる　行くぞ！」",
+   "english": "\"All right! Let's smash them in one go!\"",
+   "status": "translated",
+   "notes": ""
+  },
+  {
+   "id": "t011992",
+   "rom_offset": "0x011992",
+   "snes_addr": "$829992",
+   "orig_bytes": 33,
+   "position": {
+    "col": 2,
+    "row": 19
+   },
+   "japanese": "「おまえは！ショッカー首領！！」",
+   "english": "\"You! The Shocker Leader!!\"",
+   "status": "translated",
+   "notes": ""
+  },
+  {
+   "id": "t0119BE",
+   "rom_offset": "0x0119BE",
+   "snes_addr": "$8299BE",
+   "orig_bytes": 29,
+   "position": {
+    "col": 2,
+    "row": 23
+   },
+   "japanese": "「いっ　生きていたのか！？」",
+   "english": "\"Y-You're still alive?!\"",
+   "status": "translated",
+   "notes": ""
+  },
+  {
+   "id": "t0119E9",
+   "rom_offset": "0x0119E9",
+   "snes_addr": "$8299E9",
+   "orig_bytes": 29,
+   "position": {
+    "col": 2,
+    "row": 19
+   },
+   "japanese": "「久し振りだな　仮面ライダー",
+   "english": "\"It has been a long time, Kamen Riders.",
+   "status": "translated",
+   "notes": ""
+  },
+  {
+   "id": "t011A11",
+   "rom_offset": "0x011A11",
+   "snes_addr": "$829A11",
+   "orig_bytes": 33,
+   "position": {
+    "col": 2,
+    "row": 23
+   },
+   "japanese": "おまえ達がここまでやるとは・・・",
+   "english": "To think you would get this far...",
+   "status": "translated",
+   "notes": ""
+  },
+  {
+   "id": "t011A40",
+   "rom_offset": "0x011A40",
+   "snes_addr": "$829A40",
+   "orig_bytes": 25,
+   "position": {
+    "col": 2,
+    "row": 19
+   },
+   "japanese": "しかし　いいきになるな！",
+   "english": "But don't get cocky!",
+   "status": "translated",
+   "notes": ""
+  },
+  {
+   "id": "t011A64",
+   "rom_offset": "0x011A64",
+   "snes_addr": "$829A64",
+   "orig_bytes": 33,
+   "position": {
+    "col": 2,
+    "row": 23
+   },
+   "japanese": "装置を破壊したようだが　もう遅い",
+   "english": "You destroyed the device, but it's too late.",
+   "status": "translated",
+   "notes": ""
+  },
+  {
+   "id": "t011A93",
+   "rom_offset": "0x011A93",
+   "snes_addr": "$829A93",
+   "orig_bytes": 39,
+   "position": {
+    "col": 2,
+    "row": 19
+   },
+   "japanese": "計画はもはや最終段階に　入っているのだ",
+   "english": "My plan has already entered its final stage.",
+   "status": "translated",
+   "notes": ""
+  },
+  {
+   "id": "t011AC8",
+   "rom_offset": "0x011AC8",
+   "snes_addr": "$829AC8",
+   "orig_bytes": 35,
+   "position": {
+    "col": 2,
+    "row": 19
+   },
+   "japanese": "阻止したければ　ここまできてみろ！",
+   "english": "If you want to stop it, come and get me!",
+   "status": "translated",
+   "notes": ""
+  },
+  {
+   "id": "t011AF6",
+   "rom_offset": "0x011AF6",
+   "snes_addr": "$829AF6",
+   "orig_bytes": 29,
+   "position": {
+    "col": 2,
+    "row": 23
+   },
+   "japanese": "ワッハッハッハッハッ・・・」",
+   "english": "Wa-ha-ha-ha-ha...\"",
+   "status": "translated",
+   "notes": ""
+  },
+  {
+   "id": "t011B21",
+   "rom_offset": "0x011B21",
+   "snes_addr": "$829B21",
+   "orig_bytes": 13,
+   "position": {
+    "col": 2,
+    "row": 19
+   },
+   "japanese": "「まてっ！」",
+   "english": "\"Wait!\"",
+   "status": "translated",
+   "notes": ""
+  },
+  {
+   "id": "t011B48",
+   "rom_offset": "0x011B48",
+   "snes_addr": "$829B48",
+   "orig_bytes": 41,
+   "position": {
+    "col": 2,
+    "row": 19
+   },
+   "japanese": "ついに　その姿を現した　ショッカー大首領",
+   "english": "At last, the Great Leader of Shocker shows himself.",
+   "status": "translated",
+   "notes": ""
+  },
+  {
+   "id": "t011B7C",
+   "rom_offset": "0x011B7C",
+   "snes_addr": "$829B7C",
+   "orig_bytes": 33,
+   "position": {
+    "col": 2,
+    "row": 23
+   },
+   "japanese": "はたして　仮面ライダーの運命は！",
+   "english": "What fate awaits Kamen Rider?!",
+   "status": "translated",
+   "notes": ""
+  },
+  {
+   "id": "t011BAB",
+   "rom_offset": "0x011BAB",
+   "snes_addr": "$829BAB",
+   "orig_bytes": 41,
+   "position": {
+    "col": 2,
+    "row": 19
+   },
+   "japanese": "次週　仮面ライダー　「史上最大の決戦！」",
+   "english": "Next week on Kamen Rider: \"The Greatest Battle Ever!\"",
+   "status": "translated",
+   "notes": ""
+  },
+  {
+   "id": "t011BDF",
+   "rom_offset": "0x011BDF",
+   "snes_addr": "$829BDF",
+   "orig_bytes": 15,
+   "position": {
+    "col": 2,
+    "row": 23
+   },
+   "japanese": "お楽しみに！！",
+   "english": "Don't miss it!!",
+   "status": "translated",
+   "notes": ""
+  },
+  {
+   "id": "t011BFC",
+   "rom_offset": "0x011BFC",
+   "snes_addr": "$829BFC",
+   "orig_bytes": 55,
+   "position": {
+    "col": 2,
+    "row": 19
+   },
+   "japanese": "ＮＥＸＴ　ＣＨＡＬＬＥＮＧＥ　ＮＯＲＭＡＬ　ＭＯＤＥ！",
+   "english": "NEXT CHALLENGE: NORMAL MODE!",
+   "status": "translated",
+   "notes": ""
+  },
+  {
+   "id": "t011C7B",
+   "rom_offset": "0x011C7B",
+   "snes_addr": "$829C7B",
+   "orig_bytes": 25,
+   "position": {
+    "col": 2,
+    "row": 19
+   },
+   "japanese": "「計画は最終段階に入った",
+   "english": "\"The plan has entered its final stage.",
+   "status": "translated",
+   "notes": ""
+  },
+  {
+   "id": "t011CA2",
+   "rom_offset": "0x011CA2",
+   "snes_addr": "$829CA2",
+   "orig_bytes": 31,
+   "position": {
+    "col": 2,
+    "row": 19
+   },
+   "japanese": "ダムで失敗したエネルギー注入を",
+   "english": "Our energy infusion failed at the dam,",
+   "status": "translated",
+   "notes": ""
+  },
+  {
+   "id": "t011CCC",
+   "rom_offset": "0x011CCC",
+   "snes_addr": "$829CCC",
+   "orig_bytes": 39,
+   "position": {
+    "col": 2,
+    "row": 23
+   },
+   "japanese": "ライダーのパワーを利用して補うのだ！！",
+   "english": "so we'll use the Riders' power instead!",
+   "status": "translated",
+   "notes": ""
+  },
+  {
+   "id": "t011D01",
+   "rom_offset": "0x011D01",
+   "snes_addr": "$829D01",
+   "orig_bytes": 27,
+   "position": {
+    "col": 2,
+    "row": 19
+   },
+   "japanese": "もうすぐ　やつらが到着する",
+   "english": "They will arrive any moment.",
+   "status": "translated",
+   "notes": ""
+  },
+  {
+   "id": "t011D27",
+   "rom_offset": "0x011D27",
+   "snes_addr": "$829D27",
+   "orig_bytes": 39,
+   "position": {
+    "col": 2,
+    "row": 23
+   },
+   "japanese": "よいかっ　今度こそ失敗はゆるされんぞ！",
+   "english": "Listen! This time, failure will not be tolerated!",
+   "status": "translated",
+   "notes": ""
+  },
+  {
+   "id": "t011D5C",
+   "rom_offset": "0x011D5C",
+   "snes_addr": "$829D5C",
+   "orig_bytes": 33,
+   "position": {
+    "col": 2,
+    "row": 19
+   },
+   "japanese": "ライダーを必ず捕らえるのだ！！」",
+   "english": "Capture the Riders, no matter what!!\"",
+   "status": "translated",
+   "notes": ""
+  },
+  {
+   "id": "t011DED",
+   "rom_offset": "0x011DED",
+   "snes_addr": "$829DED",
+   "orig_bytes": 27,
+   "position": {
+    "col": 2,
+    "row": 19
+   },
+   "japanese": "滝　　　「終ったな・・・」",
+   "english": "Taki:  \"It's over...\"",
+   "status": "translated",
+   "notes": ""
+  },
+  {
+   "id": "t011E16",
+   "rom_offset": "0x011E16",
+   "snes_addr": "$829E16",
+   "orig_bytes": 21,
+   "position": {
+    "col": 2,
+    "row": 19
+   },
+   "japanese": "２号　　「ああ・・・",
+   "english": "Ichimonji:  \"Yeah...",
+   "status": "translated",
+   "notes": ""
+  },
+  {
+   "id": "t011E36",
+   "rom_offset": "0x011E36",
+   "snes_addr": "$829E36",
+   "orig_bytes": 37,
+   "position": {
+    "col": 6,
+    "row": 23
+   },
+   "japanese": "今度こそショッカーは壊滅したはずだ」",
+   "english": "Shocker should be finished for good.\"",
+   "status": "translated",
+   "notes": ""
+  },
+  {
+   "id": "t011E69",
+   "rom_offset": "0x011E69",
+   "snes_addr": "$829E69",
+   "orig_bytes": 27,
+   "position": {
+    "col": 2,
+    "row": 19
+   },
+   "japanese": "１号　　「おやっさん・・・",
+   "english": "Hongo:  \"Pops...",
+   "status": "translated",
+   "notes": ""
+  },
+  {
+   "id": "t011E8F",
+   "rom_offset": "0x011E8F",
+   "snes_addr": "$829E8F",
+   "orig_bytes": 25,
+   "position": {
+    "col": 6,
+    "row": 23
+   },
+   "japanese": "滝・・・　ありがとう！」",
+   "english": "Taki... Thank you!\"",
+   "status": "translated",
+   "notes": ""
+  },
+  {
+   "id": "t011EB6",
+   "rom_offset": "0x011EB6",
+   "snes_addr": "$829EB6",
+   "orig_bytes": 37,
+   "position": {
+    "col": 2,
+    "row": 19
+   },
+   "japanese": "藤兵衛　「やはり行ってしまうのか？」",
+   "english": "Tobei: \"So you're leaving after all?\"",
+   "status": "translated",
+   "notes": ""
+  },
+  {
+   "id": "t011EE9",
+   "rom_offset": "0x011EE9",
+   "snes_addr": "$829EE9",
+   "orig_bytes": 45,
+   "position": {
+    "col": 2,
+    "row": 19
+   },
+   "japanese": "１号　　「はい　もう我々の役目は終りました」",
+   "english": "Hong:  \"Yes. Our job here is done.\"",
+   "status": "translated",
+   "notes": ""
+  },
+  {
+   "id": "t011F24",
+   "rom_offset": "0x011F24",
+   "snes_addr": "$829F24",
+   "orig_bytes": 33,
+   "position": {
+    "col": 2,
+    "row": 19
+   },
+   "japanese": "２号　　「日本はもう　大丈夫です",
+   "english": "Ichimonji:  \"Japan will be fine now.",
+   "status": "translated",
+   "notes": ""
+  },
+  {
+   "id": "t011F50",
+   "rom_offset": "0x011F50",
+   "snes_addr": "$829F50",
+   "orig_bytes": 43,
+   "position": {
+    "col": 6,
+    "row": 23
+   },
+   "japanese": "何かあったら　又すぐに　駆け付けますよ！」",
+   "english": "If anything happens, we'll be right back!\"",
+   "status": "translated",
+   "notes": ""
+  },
+  {
+   "id": "t011F89",
+   "rom_offset": "0x011F89",
+   "snes_addr": "$829F89",
+   "orig_bytes": 39,
+   "position": {
+    "col": 2,
+    "row": 19
+   },
+   "japanese": "滝　　　「げんきでな！本郷　一文字！」",
+   "english": "Taki:  \"Take care! Hongo! Ichimonji!\"",
+   "status": "translated",
+   "notes": ""
+  },
+  {
+   "id": "t011FFD",
+   "rom_offset": "0x011FFD",
+   "snes_addr": "$829FFD",
+   "orig_bytes": 19,
+   "position": {
+    "col": 2,
+    "row": 19
+   },
+   "japanese": "戦いは終った・・・",
+   "english": "The battle was over...",
+   "status": "translated",
+   "notes": ""
+  },
+  {
+   "id": "t01201B",
+   "rom_offset": "0x01201B",
+   "snes_addr": "$82A01B",
+   "orig_bytes": 31,
+   "position": {
+    "col": 2,
+    "row": 23
+   },
+   "japanese": "日本に再び平和が帰ってきたのだ",
+   "english": "Peace had returned to Japan once more.",
+   "status": "translated",
+   "notes": ""
+  },
+  {
+   "id": "t012048",
+   "rom_offset": "0x012048",
+   "snes_addr": "$82A048",
+   "orig_bytes": 53,
+   "position": {
+    "col": 2,
+    "row": 19
+   },
+   "japanese": "しかし　世界にはまだ数多くの　悪の組織が暗躍している",
+   "english": "But many evil organizations are still at work around the world.",
+   "status": "translated",
+   "notes": ""
+  },
+  {
+   "id": "t01208B",
+   "rom_offset": "0x01208B",
+   "snes_addr": "$82A08B",
+   "orig_bytes": 37,
+   "position": {
+    "col": 2,
+    "row": 19
+   },
+   "japanese": "仮面ライダーは　世界が平和になるまで",
+   "english": "Kamen Rider must keep fighting",
+   "status": "translated",
+   "notes": ""
+  },
+  {
+   "id": "t0120BB",
+   "rom_offset": "0x0120BB",
+   "snes_addr": "$82A0BB",
+   "orig_bytes": 25,
+   "position": {
+    "col": 2,
+    "row": 23
+   },
+   "japanese": "戦い続けなければならない",
+   "english": "until the world is at peace.",
+   "status": "translated",
+   "notes": ""
+  },
+  {
+   "id": "t0120E2",
+   "rom_offset": "0x0120E2",
+   "snes_addr": "$82A0E2",
+   "orig_bytes": 33,
+   "position": {
+    "col": 2,
+    "row": 19
+   },
+   "japanese": "悪のなくなる日まで　世界の人々が",
+   "english": "Until the day evil is gone, as long as",
+   "status": "translated",
+   "notes": ""
+  },
+  {
+   "id": "t01210E",
+   "rom_offset": "0x01210E",
+   "snes_addr": "$82A10E",
+   "orig_bytes": 25,
+   "position": {
+    "col": 2,
+    "row": 23
+   },
+   "japanese": "愛と正義を信じていく限り",
+   "english": "people believe in love and justice,",
+   "status": "translated",
+   "notes": ""
+  },
+  {
+   "id": "t012135",
+   "rom_offset": "0x012135",
+   "snes_addr": "$82A135",
+   "orig_bytes": 49,
+   "position": {
+    "col": 2,
+    "row": 19
+   },
+   "japanese": "仮面ライダーは　今日も　どこかで戦っているのだ！",
+   "english": "Kamen Rider is out there fighting, today and always!",
+   "status": "translated",
+   "notes": ""
+  },
+  {
+   "id": "t0123A0",
+   "rom_offset": "0x0123A0",
+   "snes_addr": "$82A3A0",
+   "orig_bytes": 7,
+   "position": null,
+   "japanese": "第１話",
+   "english": "Ep.1",
+   "status": "translated",
+   "notes": ""
+  },
+  {
+   "id": "t0123B2",
+   "rom_offset": "0x0123B2",
+   "snes_addr": "$82A3B2",
+   "orig_bytes": 23,
+   "position": {
+    "col": 10,
+    "row": 12
+   },
+   "japanese": "「復活！仮面ライダー」",
+   "english": "\"Kamen Rider Returns!\"",
+   "status": "translated",
+   "notes": ""
+  },
+  {
+   "id": "t0123D0",
+   "rom_offset": "0x0123D0",
+   "snes_addr": "$82A3D0",
+   "orig_bytes": 7,
+   "position": null,
+   "japanese": "第２話",
+   "english": "Ep.2",
+   "status": "translated",
+   "notes": ""
+  },
+  {
+   "id": "t0123E2",
+   "rom_offset": "0x0123E2",
+   "snes_addr": "$82A3E2",
+   "orig_bytes": 21,
+   "position": {
+    "col": 10,
+    "row": 12
+   },
+   "japanese": "「恐怖！オオカミ男」",
+   "english": "\"Terror! The Wolf Man\"",
+   "status": "translated",
+   "notes": ""
+  },
+  {
+   "id": "t0123FE",
+   "rom_offset": "0x0123FE",
+   "snes_addr": "$82A3FE",
+   "orig_bytes": 7,
+   "position": null,
+   "japanese": "第３話",
+   "english": "Ep.3",
+   "status": "translated",
+   "notes": ""
+  },
+  {
+   "id": "t012410",
+   "rom_offset": "0x012410",
+   "snes_addr": "$82A410",
+   "orig_bytes": 25,
+   "position": {
+    "col": 10,
+    "row": 12
+   },
+   "japanese": "「戦慄！藤兵衛誘拐！！」",
+   "english": "\"Horror! Tobei Kidnapped!!\"",
+   "status": "translated",
+   "notes": ""
+  },
+  {
+   "id": "t012430",
+   "rom_offset": "0x012430",
+   "snes_addr": "$82A430",
+   "orig_bytes": 7,
+   "position": null,
+   "japanese": "第４話",
+   "english": "Ep.4",
+   "status": "translated",
+   "notes": ""
+  },
+  {
+   "id": "t012442",
+   "rom_offset": "0x012442",
+   "snes_addr": "$82A442",
+   "orig_bytes": 19,
+   "position": {
+    "col": 10,
+    "row": 12
+   },
+   "japanese": "「設計図奪取作戦」",
+   "english": "\"Operation: Steal the Plans\"",
+   "status": "translated",
+   "notes": ""
+  },
+  {
+   "id": "t01245B",
+   "rom_offset": "0x01245B",
+   "snes_addr": "$82A45B",
+   "orig_bytes": 7,
+   "position": null,
+   "japanese": "第５話",
+   "english": "Ep.5",
+   "status": "translated",
+   "notes": ""
+  },
+  {
+   "id": "t01246D",
+   "rom_offset": "0x01246D",
+   "snes_addr": "$82A46D",
+   "orig_bytes": 21,
+   "position": {
+    "col": 10,
+    "row": 12
+   },
+   "japanese": "「細胞超活性化装置」",
+   "english": "\"The Cell Hyper-Activator\"",
+   "status": "translated",
+   "notes": ""
+  },
+  {
+   "id": "t012488",
+   "rom_offset": "0x012488",
+   "snes_addr": "$82A488",
+   "orig_bytes": 7,
+   "position": null,
+   "japanese": "第６話",
+   "english": "Ep.6",
+   "status": "translated",
+   "notes": ""
+  },
+  {
+   "id": "t01249A",
+   "rom_offset": "0x01249A",
+   "snes_addr": "$82A49A",
+   "orig_bytes": 21,
+   "position": {
+    "col": 10,
+    "row": 12
+   },
+   "japanese": "「史上最大の決戦！」",
+   "english": "\"The Greatest Battle Ever!\"",
+   "status": "translated",
+   "notes": ""
+  },
+  {
+   "id": "t012CDB",
+   "rom_offset": "0x012CDB",
+   "snes_addr": "$82ACDB",
+   "orig_bytes": 23,
+   "position": {
+    "col": 8,
+    "row": 6
+   },
+   "japanese": "新　技　開　発　特　訓",
+   "english": "NEW MOVES",
+   "status": "translated",
+   "notes": ""
+  },
+  {
+   "id": "t012CFE",
+   "rom_offset": "0x012CFE",
+   "snes_addr": "$82ACFE",
+   "orig_bytes": 27,
+   "position": {
+    "col": 8,
+    "row": 10
+   },
+   "japanese": "体　力　ア　ッ　プ　特　訓",
+   "english": "STAMINA UP",
+   "status": "translated",
+   "notes": ""
+  },
+  {
+   "id": "t012D25",
+   "rom_offset": "0x012D25",
+   "snes_addr": "$82AD25",
+   "orig_bytes": 31,
+   "position": {
+    "col": 8,
+    "row": 14
+   },
+   "japanese": "攻　撃　力　ア　ッ　プ　特　訓",
+   "english": "ATTACK UP",
+   "status": "translated",
+   "notes": ""
+  },
+  {
+   "id": "t012D50",
+   "rom_offset": "0x012D50",
+   "snes_addr": "$82AD50",
+   "orig_bytes": 11,
+   "position": {
+    "col": 8,
+    "row": 18
+   },
+   "japanese": "や　め　る",
+   "english": "QUIT",
+   "status": "translated",
+   "notes": ""
+  },
+  {
+   "id": "t012E37",
+   "rom_offset": "0x012E37",
+   "snes_addr": "$82AE37",
+   "orig_bytes": 23,
+   "position": {
+    "col": 8,
+    "row": 6
+   },
+   "japanese": "新　技　開　発　特　訓",
+   "english": "NEW MOVES",
+   "status": "translated",
+   "notes": ""
+  },
+  {
+   "id": "t012E6C",
+   "rom_offset": "0x012E6C",
+   "snes_addr": "$82AE6C",
+   "orig_bytes": 23,
+   "position": {
+    "col": 8,
+    "row": 6
+   },
+   "japanese": "新　技　開　発　特　訓",
+   "english": "NEW MOVES",
+   "status": "translated",
+   "notes": ""
+  },
+  {
+   "id": "t012E8E",
+   "rom_offset": "0x012E8E",
+   "snes_addr": "$82AE8E",
+   "orig_bytes": 27,
+   "position": {
+    "col": 8,
+    "row": 10
+   },
+   "japanese": "体　力　ア　ッ　プ　特　訓",
+   "english": "STAMINA UP",
+   "status": "translated",
+   "notes": ""
+  },
+  {
+   "id": "t012EB4",
+   "rom_offset": "0x012EB4",
+   "snes_addr": "$82AEB4",
+   "orig_bytes": 31,
+   "position": {
+    "col": 8,
+    "row": 14
+   },
+   "japanese": "攻　撃　力　ア　ッ　プ　特　訓",
+   "english": "ATTACK UP",
+   "status": "translated",
+   "notes": ""
+  },
+  {
+   "id": "t012EDE",
+   "rom_offset": "0x012EDE",
+   "snes_addr": "$82AEDE",
+   "orig_bytes": 11,
+   "position": {
+    "col": 8,
+    "row": 18
+   },
+   "japanese": "や　め　る",
+   "english": "QUIT",
+   "status": "translated",
+   "notes": ""
+  },
+  {
+   "id": "t012EF8",
+   "rom_offset": "0x012EF8",
+   "snes_addr": "$82AEF8",
+   "orig_bytes": 27,
+   "position": {
+    "col": 10,
+    "row": 8
+   },
+   "japanese": "これから新技特訓を始める！",
+   "english": "New move training!",
+   "status": "translated",
+   "notes": ""
+  },
+  {
+   "id": "t012F1E",
+   "rom_offset": "0x012F1E",
+   "snes_addr": "$82AF1E",
+   "orig_bytes": 25,
+   "position": {
+    "col": 10,
+    "row": 10
+   },
+   "japanese": "ルールはわかっているな！",
+   "english": "You know the rules!",
+   "status": "translated",
+   "notes": ""
+  },
+  {
+   "id": "t012F48",
+   "rom_offset": "0x012F48",
+   "snes_addr": "$82AF48",
+   "orig_bytes": 15,
+   "position": null,
+   "japanese": "よしっ　始め！",
+   "english": "Ready... Go!",
+   "status": "translated",
+   "notes": ""
+  },
+  {
+   "id": "t012F68",
+   "rom_offset": "0x012F68",
+   "snes_addr": "$82AF68",
+   "orig_bytes": 39,
+   "position": null,
+   "japanese": "「これから現れるダミー戦闘員を、本物の",
+   "english": "Treat these Shocker",
+   "status": "translated",
+   "notes": " SSI box: max 20 chars per line."
+  },
+  {
+   "id": "t012F9A",
+   "rom_offset": "0x012F9A",
+   "snes_addr": "$82AF9A",
+   "orig_bytes": 27,
+   "position": {
+    "col": 10,
+    "row": 8
+   },
+   "japanese": "戦闘員だと思って倒すのだ！",
+   "english": "dummies as real!",
+   "status": "translated",
+   "notes": " SSI box: max 20 chars per line."
+  },
+  {
+   "id": "t012FC0",
+   "rom_offset": "0x012FC0",
+   "snes_addr": "$82AFC0",
+   "orig_bytes": 37,
+   "position": {
+    "col": 10,
+    "row": 10
+   },
+   "japanese": "時間内持ちこたえられれば、新たな技が",
+   "english": "Last until time's up",
+   "status": "translated",
+   "notes": ""
+  },
+  {
+   "id": "t012FF0",
+   "rom_offset": "0x012FF0",
+   "snes_addr": "$82AFF0",
+   "orig_bytes": 33,
+   "position": {
+    "col": 10,
+    "row": 12
+   },
+   "japanese": "ＳＳＩ内で、出来ることになるぞ！",
+   "english": "to learn a new move!",
+   "status": "translated",
+   "notes": ""
+  },
+  {
+   "id": "t01301B",
+   "rom_offset": "0x01301B",
+   "snes_addr": "$82B01B",
+   "orig_bytes": 15,
+   "position": null,
+   "japanese": "よしっ　始め！",
+   "english": "Ready... Go!",
+   "status": "translated",
+   "notes": ""
+  },
+  {
+   "id": "t01304B",
+   "rom_offset": "0x01304B",
+   "snes_addr": "$82B04B",
+   "orig_bytes": 33,
+   "position": {
+    "col": 10,
+    "row": 8
+   },
+   "japanese": "これから体力アップ特訓を始める！",
+   "english": "Stamina training!",
+   "status": "translated",
+   "notes": ""
+  },
+  {
+   "id": "t013077",
+   "rom_offset": "0x013077",
+   "snes_addr": "$82B077",
+   "orig_bytes": 25,
+   "position": {
+    "col": 10,
+    "row": 10
+   },
+   "japanese": "ルールはわかっているな！",
+   "english": "You know the rules!",
+   "status": "translated",
+   "notes": ""
+  },
+  {
+   "id": "t0130A1",
+   "rom_offset": "0x0130A1",
+   "snes_addr": "$82B0A1",
+   "orig_bytes": 15,
+   "position": null,
+   "japanese": "よしっ　始め！",
+   "english": "Ready... Go!",
+   "status": "translated",
+   "notes": ""
+  },
+  {
+   "id": "t0130C1",
+   "rom_offset": "0x0130C1",
+   "snes_addr": "$82B0C1",
+   "orig_bytes": 31,
+   "position": null,
+   "japanese": "「ダミー戦闘員のブルドーザーを",
+   "english": "Stop the dummy's",
+   "status": "translated",
+   "notes": " SSI box: max 20 chars per line."
+  },
+  {
+   "id": "t0130EB",
+   "rom_offset": "0x0130EB",
+   "snes_addr": "$82B0EB",
+   "orig_bytes": 27,
+   "position": {
+    "col": 10,
+    "row": 8
+   },
+   "japanese": "Ｙボタン連射で押えるのだ！",
+   "english": "bulldozer! Mash Y!",
+   "status": "translated",
+   "notes": ""
+  },
+  {
+   "id": "t013111",
+   "rom_offset": "0x013111",
+   "snes_addr": "$82B111",
+   "orig_bytes": 39,
+   "position": {
+    "col": 10,
+    "row": 10
+   },
+   "japanese": "時間内持ちこたえられれば、ライダー時の",
+   "english": "Last until time's up",
+   "status": "translated",
+   "notes": ""
+  },
+  {
+   "id": "t013143",
+   "rom_offset": "0x013143",
+   "snes_addr": "$82B143",
+   "orig_bytes": 25,
+   "position": {
+    "col": 10,
+    "row": 12
+   },
+   "japanese": "基礎体力がアップするぞ！",
+   "english": "and stamina goes up!",
+   "status": "translated",
+   "notes": ""
+  },
+  {
+   "id": "t013166",
+   "rom_offset": "0x013166",
+   "snes_addr": "$82B166",
+   "orig_bytes": 15,
+   "position": null,
+   "japanese": "よしっ　始め！",
+   "english": "Ready... Go!",
+   "status": "translated",
+   "notes": ""
+  },
+  {
+   "id": "t013196",
+   "rom_offset": "0x013196",
+   "snes_addr": "$82B196",
+   "orig_bytes": 35,
+   "position": {
+    "col": 10,
+    "row": 8
+   },
+   "japanese": "これから攻撃力アップ特訓を始める！",
+   "english": "Attack training!",
+   "status": "translated",
+   "notes": ""
+  },
+  {
+   "id": "t0131C4",
+   "rom_offset": "0x0131C4",
+   "snes_addr": "$82B1C4",
+   "orig_bytes": 25,
+   "position": {
+    "col": 10,
+    "row": 10
+   },
+   "japanese": "ルールはわかっているな！",
+   "english": "You know the rules!",
+   "status": "translated",
+   "notes": ""
+  },
+  {
+   "id": "t0131EE",
+   "rom_offset": "0x0131EE",
+   "snes_addr": "$82B1EE",
+   "orig_bytes": 15,
+   "position": null,
+   "japanese": "よしっ　始め！",
+   "english": "Ready... Go!",
+   "status": "translated",
+   "notes": ""
+  },
+  {
+   "id": "t01320E",
+   "rom_offset": "0x01320E",
+   "snes_addr": "$82B20E",
+   "orig_bytes": 33,
+   "position": null,
+   "japanese": "「これからわしが、いわをおとす！",
+   "english": "I'll drop boulders!",
+   "status": "translated",
+   "notes": ""
+  },
+  {
+   "id": "t01323A",
+   "rom_offset": "0x01323A",
+   "snes_addr": "$82B23A",
+   "orig_bytes": 33,
+   "position": {
+    "col": 10,
+    "row": 8
+   },
+   "japanese": "Ｙボタン連射で攻撃して壊すのだ！",
+   "english": "Smash them with Y!",
+   "status": "translated",
+   "notes": " SSI box: max 20 chars per line."
+  },
+  {
+   "id": "t013266",
+   "rom_offset": "0x013266",
+   "snes_addr": "$82B266",
+   "orig_bytes": 39,
+   "position": {
+    "col": 10,
+    "row": 10
+   },
+   "japanese": "時間内持ちこたえられれば、ライダー時の",
+   "english": "Last until time's up",
+   "status": "translated",
+   "notes": ""
+  },
+  {
+   "id": "t013298",
+   "rom_offset": "0x013298",
+   "snes_addr": "$82B298",
+   "orig_bytes": 29,
+   "position": {
+    "col": 10,
+    "row": 12
+   },
+   "japanese": "全ての攻撃力がアップするぞ！",
+   "english": "and attack goes up!",
+   "status": "translated",
+   "notes": ""
+  },
+  {
+   "id": "t0132BF",
+   "rom_offset": "0x0132BF",
+   "snes_addr": "$82B2BF",
+   "orig_bytes": 15,
+   "position": null,
+   "japanese": "よしっ　始め！",
+   "english": "Ready... Go!",
+   "status": "translated",
+   "notes": ""
+  },
+  {
+   "id": "t0132F0",
+   "rom_offset": "0x0132F0",
+   "snes_addr": "$82B2F0",
+   "orig_bytes": 17,
+   "position": {
+    "col": 10,
+    "row": 8
+   },
+   "japanese": "よくがんばった！",
+   "english": "Well done!",
+   "status": "translated",
+   "notes": ""
+  },
+  {
+   "id": "t01330C",
+   "rom_offset": "0x01330C",
+   "snes_addr": "$82B30C",
+   "orig_bytes": 27,
+   "position": {
+    "col": 10,
+    "row": 10
+   },
+   "japanese": "よしっ　ＳＳＩセットだ！！",
+   "english": "All right, SSI set!!",
+   "status": "translated",
+   "notes": ""
+  },
+  {
+   "id": "t01334F",
+   "rom_offset": "0x01334F",
+   "snes_addr": "$82B34F",
+   "orig_bytes": 13,
+   "position": {
+    "col": 10,
+    "row": 8
+   },
+   "japanese": "ザンネンッ！",
+   "english": "Too bad!",
+   "status": "translated",
+   "notes": ""
+  },
+  {
+   "id": "t013367",
+   "rom_offset": "0x013367",
+   "snes_addr": "$82B367",
+   "orig_bytes": 25,
+   "position": {
+    "col": 10,
+    "row": 10
+   },
+   "japanese": "もう一度、挑戦するか？！",
+   "english": "Want to try again?!",
+   "status": "translated",
+   "notes": ""
+  },
+  {
+   "id": "t0133A7",
+   "rom_offset": "0x0133A7",
+   "snes_addr": "$82B3A7",
+   "orig_bytes": 17,
+   "position": {
+    "col": 10,
+    "row": 8
+   },
+   "japanese": "よくがんばった！",
+   "english": "Well done!",
+   "status": "translated",
+   "notes": ""
+  },
+  {
+   "id": "t0133C3",
+   "rom_offset": "0x0133C3",
+   "snes_addr": "$82B3C3",
+   "orig_bytes": 35,
+   "position": {
+    "col": 10,
+    "row": 10
+   },
+   "japanese": "これで体力は大きくアップしたぞっ！",
+   "english": "Stamina is way up!",
+   "status": "translated",
+   "notes": ""
+  },
+  {
+   "id": "t01340E",
+   "rom_offset": "0x01340E",
+   "snes_addr": "$82B40E",
+   "orig_bytes": 17,
+   "position": {
+    "col": 10,
+    "row": 8
+   },
+   "japanese": "よくがんばった！",
+   "english": "Well done!",
+   "status": "translated",
+   "notes": ""
+  },
+  {
+   "id": "t01342A",
+   "rom_offset": "0x01342A",
+   "snes_addr": "$82B42A",
+   "orig_bytes": 37,
+   "position": {
+    "col": 10,
+    "row": 10
+   },
+   "japanese": "これで攻撃力は大きくアップしたぞっ！",
+   "english": "Attack is way up!",
+   "status": "translated",
+   "notes": ""
+  },
+  {
+   "id": "t013511",
+   "rom_offset": "0x013511",
+   "snes_addr": "$82B511",
+   "orig_bytes": 15,
+   "position": null,
+   "japanese": "「猛！　隼人！",
+   "english": "\"Takeshi! Hayato!",
+   "status": "translated",
+   "notes": ""
+  },
+  {
+   "id": "t013526",
+   "rom_offset": "0x013526",
+   "snes_addr": "$82B526",
+   "orig_bytes": 7,
+   "position": null,
+   "japanese": "「猛！",
+   "english": "\"Takeshi!",
+   "status": "translated",
+   "notes": ""
+  },
+  {
+   "id": "t013533",
+   "rom_offset": "0x013533",
+   "snes_addr": "$82B533",
+   "orig_bytes": 9,
+   "position": null,
+   "japanese": "「隼人！",
+   "english": "\"Hayato!",
+   "status": "translated",
+   "notes": ""
+  },
+  {
+   "id": "t013568",
+   "rom_offset": "0x013568",
+   "snes_addr": "$82B568",
+   "orig_bytes": 5,
+   "position": {
+    "col": 10,
+    "row": 12
+   },
+   "japanese": "はい",
+   "english": "YES",
+   "status": "translated",
+   "notes": ""
+  },
+  {
+   "id": "t01357F",
+   "rom_offset": "0x01357F",
+   "snes_addr": "$82B57F",
+   "orig_bytes": 7,
+   "position": {
+    "col": 17,
+    "row": 12
+   },
+   "japanese": "いいえ",
+   "english": "NO",
+   "status": "translated",
+   "notes": ""
+  },
+  {
+   "id": "t0135E6",
+   "rom_offset": "0x0135E6",
+   "snes_addr": "$82B5E6",
+   "orig_bytes": 5,
+   "position": {
+    "col": 10,
+    "row": 12
+   },
+   "japanese": "はい",
+   "english": "YES",
+   "status": "translated",
+   "notes": ""
+  },
+  {
+   "id": "t0135FD",
+   "rom_offset": "0x0135FD",
+   "snes_addr": "$82B5FD",
+   "orig_bytes": 7,
+   "position": {
+    "col": 17,
+    "row": 12
+   },
+   "japanese": "いいえ",
+   "english": "NO",
+   "status": "translated",
+   "notes": ""
+  },
+  {
+   "id": "t013618",
+   "rom_offset": "0x013618",
+   "snes_addr": "$82B618",
+   "orig_bytes": 5,
+   "position": {
+    "col": 10,
+    "row": 12
+   },
+   "japanese": "はい",
+   "english": "YES",
+   "status": "translated",
+   "notes": ""
+  },
+  {
+   "id": "t01362F",
+   "rom_offset": "0x01362F",
+   "snes_addr": "$82B62F",
+   "orig_bytes": 7,
+   "position": {
+    "col": 17,
+    "row": 12
+   },
+   "japanese": "いいえ",
+   "english": "NO",
+   "status": "translated",
+   "notes": ""
+  },
+  {
+   "id": "t01368E",
+   "rom_offset": "0x01368E",
+   "snes_addr": "$82B68E",
+   "orig_bytes": 39,
+   "position": {
+    "col": 10,
+    "row": 6
+   },
+   "japanese": "　　　　　　　　　　　　　　　　　　　",
+   "english": "                    ",
+   "status": "translated",
+   "notes": "Clears one line of Tobei's SSI text box (cols 10-29). Widened from 19 to 20 columns so English lines up to 20 chars are fully erased between pages."
+  },
+  {
+   "id": "t0136C0",
+   "rom_offset": "0x0136C0",
+   "snes_addr": "$82B6C0",
+   "orig_bytes": 39,
+   "position": {
+    "col": 10,
+    "row": 8
+   },
+   "japanese": "　　　　　　　　　　　　　　　　　　　",
+   "english": "                    ",
+   "status": "translated",
+   "notes": "Clears one line of Tobei's SSI text box (cols 10-29). Widened from 19 to 20 columns so English lines up to 20 chars are fully erased between pages."
+  },
+  {
+   "id": "t0136F2",
+   "rom_offset": "0x0136F2",
+   "snes_addr": "$82B6F2",
+   "orig_bytes": 39,
+   "position": {
+    "col": 10,
+    "row": 10
+   },
+   "japanese": "　　　　　　　　　　　　　　　　　　　",
+   "english": "                    ",
+   "status": "translated",
+   "notes": "Clears one line of Tobei's SSI text box (cols 10-29). Widened from 19 to 20 columns so English lines up to 20 chars are fully erased between pages."
+  },
+  {
+   "id": "t013724",
+   "rom_offset": "0x013724",
+   "snes_addr": "$82B724",
+   "orig_bytes": 39,
+   "position": {
+    "col": 10,
+    "row": 12
+   },
+   "japanese": "　　　　　　　　　　　　　　　　　　　",
+   "english": "                    ",
+   "status": "translated",
+   "notes": "Clears one line of Tobei's SSI text box (cols 10-29). Widened from 19 to 20 columns so English lines up to 20 chars are fully erased between pages."
+  },
+  {
+   "id": "t014586",
+   "rom_offset": "0x014586",
+   "snes_addr": "$82C586",
+   "orig_bytes": 43,
+   "position": {
+    "col": 9,
+    "row": 10
+   },
+   "japanese": "　　　　　　　　　　　　　　　　　　　　　",
+   "english": null,
+   "status": "n/a",
+   "notes": "Spaces/digits/symbols only; converted mechanically."
+  },
+  {
+   "id": "t014627",
+   "rom_offset": "0x014627",
+   "snes_addr": "$82C627",
+   "orig_bytes": 23,
+   "position": null,
+   "japanese": "１Ｐ　仮面ライダー１号",
+   "english": "1P RIDER #1",
+   "status": "translated",
+   "notes": ""
+  },
+  {
+   "id": "t014643",
+   "rom_offset": "0x014643",
+   "snes_addr": "$82C643",
+   "orig_bytes": 23,
+   "position": null,
+   "japanese": "２Ｐ　仮面ライダー２号",
+   "english": "2P RIDER #2",
+   "status": "translated",
+   "notes": ""
+  },
+  {
+   "id": "t0146FD",
+   "rom_offset": "0x0146FD",
+   "snes_addr": "$82C6FD",
+   "orig_bytes": 3,
+   "position": null,
+   "japanese": "　",
+   "english": null,
+   "status": "n/a",
+   "notes": "Spaces/digits/symbols only; converted mechanically."
+  },
+  {
+   "id": "t014783",
+   "rom_offset": "0x014783",
+   "snes_addr": "$82C783",
+   "orig_bytes": 25,
+   "position": null,
+   "japanese": "００　ニュートラル　　　",
+   "english": "00 NEUTRAL",
+   "status": "translated",
+   "notes": ""
+  },
+  {
+   "id": "t0147A1",
+   "rom_offset": "0x0147A1",
+   "snes_addr": "$82C7A1",
+   "orig_bytes": 25,
+   "position": null,
+   "japanese": "０１　しょうパンチみぎ　",
+   "english": "01 JAB R",
+   "status": "translated",
+   "notes": ""
+  },
+  {
+   "id": "t0147BF",
+   "rom_offset": "0x0147BF",
+   "snes_addr": "$82C7BF",
+   "orig_bytes": 25,
+   "position": null,
+   "japanese": "０２　しょうパンチひだり",
+   "english": "02 JAB L",
+   "status": "translated",
+   "notes": ""
+  },
+  {
+   "id": "t0147DD",
+   "rom_offset": "0x0147DD",
+   "snes_addr": "$82C7DD",
+   "orig_bytes": 25,
+   "position": null,
+   "japanese": "０３　だいパンチ　　　　",
+   "english": "03 BIG PUNCH",
+   "status": "translated",
+   "notes": ""
+  },
+  {
+   "id": "t0147FB",
+   "rom_offset": "0x0147FB",
+   "snes_addr": "$82C7FB",
+   "orig_bytes": 25,
+   "position": null,
+   "japanese": "０４　ストレートパンチ　",
+   "english": "04 STRAIGHT",
+   "status": "translated",
+   "notes": ""
+  },
+  {
+   "id": "t014819",
+   "rom_offset": "0x014819",
+   "snes_addr": "$82C819",
+   "orig_bytes": 25,
+   "position": null,
+   "japanese": "０５　アッパー　　　　　",
+   "english": "05 UPPERCUT",
+   "status": "translated",
+   "notes": ""
+  },
+  {
+   "id": "t014837",
+   "rom_offset": "0x014837",
+   "snes_addr": "$82C837",
+   "orig_bytes": 25,
+   "position": null,
+   "japanese": "０６　ジャンプキック　　",
+   "english": "06 JUMP KICK",
+   "status": "translated",
+   "notes": ""
+  },
+  {
+   "id": "t014855",
+   "rom_offset": "0x014855",
+   "snes_addr": "$82C855",
+   "orig_bytes": 25,
+   "position": null,
+   "japanese": "０７　ライダーキック　　",
+   "english": "07 RIDER KCK",
+   "status": "translated",
+   "notes": ""
+  },
+  {
+   "id": "t014873",
+   "rom_offset": "0x014873",
+   "snes_addr": "$82C873",
+   "orig_bytes": 25,
+   "position": null,
+   "japanese": "０８　ライダーパンチ　　",
+   "english": "08 RIDER PCH",
+   "status": "translated",
+   "notes": ""
+  },
+  {
+   "id": "t014891",
+   "rom_offset": "0x014891",
+   "snes_addr": "$82C891",
+   "orig_bytes": 25,
+   "position": null,
+   "japanese": "０９　かいてんキック　　",
+   "english": "09 SPIN KICK",
+   "status": "translated",
+   "notes": ""
+  },
+  {
+   "id": "t0148AF",
+   "rom_offset": "0x0148AF",
+   "snes_addr": "$82C8AF",
+   "orig_bytes": 25,
+   "position": null,
+   "japanese": "１０　くみひざげり　　　",
+   "english": "10 KNEE",
+   "status": "translated",
+   "notes": ""
+  },
+  {
+   "id": "t0148CD",
+   "rom_offset": "0x0148CD",
+   "snes_addr": "$82C8CD",
+   "orig_bytes": 25,
+   "position": null,
+   "japanese": "１１　しょうチョップ　　",
+   "english": "11 CHOP",
+   "status": "translated",
+   "notes": ""
+  },
+  {
+   "id": "t0148EB",
+   "rom_offset": "0x0148EB",
+   "snes_addr": "$82C8EB",
+   "orig_bytes": 25,
+   "position": null,
+   "japanese": "１２　だいチョップ　　　",
+   "english": "12 BIG CHOP",
+   "status": "translated",
+   "notes": ""
+  },
+  {
+   "id": "t014909",
+   "rom_offset": "0x014909",
+   "snes_addr": "$82C909",
+   "orig_bytes": 25,
+   "position": null,
+   "japanese": "１３　せおいなげ　　　　",
+   "english": "13 SHLD THRW",
+   "status": "translated",
+   "notes": ""
+  },
+  {
+   "id": "t014927",
+   "rom_offset": "0x014927",
+   "snes_addr": "$82C927",
+   "orig_bytes": 25,
+   "position": null,
+   "japanese": "１４　ともえなげ　　　　",
+   "english": "14 FLIP THRW",
+   "status": "translated",
+   "notes": ""
+  },
+  {
+   "id": "t014945",
+   "rom_offset": "0x014945",
+   "snes_addr": "$82C945",
+   "orig_bytes": 25,
+   "position": null,
+   "japanese": "１５　くうちゅうきっく　",
+   "english": "15 AIR KICK",
+   "status": "translated",
+   "notes": ""
+  },
+  {
+   "id": "t014963",
+   "rom_offset": "0x014963",
+   "snes_addr": "$82C963",
+   "orig_bytes": 25,
+   "position": null,
+   "japanese": "１６　きりもみなげ　　　",
+   "english": "16 SPIN THRW",
+   "status": "translated",
+   "notes": ""
+  },
+  {
+   "id": "t014981",
+   "rom_offset": "0x014981",
+   "snes_addr": "$82C981",
+   "orig_bytes": 25,
+   "position": null,
+   "japanese": "１７　ライダーシザース　",
+   "english": "17 SCISSORS",
+   "status": "translated",
+   "notes": ""
+  },
+  {
+   "id": "t01499F",
+   "rom_offset": "0x01499F",
+   "snes_addr": "$82C99F",
+   "orig_bytes": 25,
+   "position": null,
+   "japanese": "１８　ヘッドクラッシャー",
+   "english": "18 HEAD CRSH",
+   "status": "translated",
+   "notes": ""
+  },
+  {
+   "id": "t0149BD",
+   "rom_offset": "0x0149BD",
+   "snes_addr": "$82C9BD",
+   "orig_bytes": 25,
+   "position": null,
+   "japanese": "１９　かいてんクラッシュ",
+   "english": "19 SPIN CRSH",
+   "status": "translated",
+   "notes": ""
+  },
+  {
+   "id": "t0149DB",
+   "rom_offset": "0x0149DB",
+   "snes_addr": "$82C9DB",
+   "orig_bytes": 25,
+   "position": null,
+   "japanese": "２０　ストップ　　　　　",
+   "english": "20 STOP",
+   "status": "translated",
+   "notes": ""
+  },
+  {
+   "id": "t014A23",
+   "rom_offset": "0x014A23",
+   "snes_addr": "$82CA23",
+   "orig_bytes": 5,
+   "position": null,
+   "japanese": "００",
+   "english": null,
+   "status": "n/a",
+   "notes": "Spaces/digits/symbols only; converted mechanically."
+  },
+  {
+   "id": "t014A2D",
+   "rom_offset": "0x014A2D",
+   "snes_addr": "$82CA2D",
+   "orig_bytes": 5,
+   "position": null,
+   "japanese": "０１",
+   "english": null,
+   "status": "n/a",
+   "notes": "Spaces/digits/symbols only; converted mechanically."
+  },
+  {
+   "id": "t014A37",
+   "rom_offset": "0x014A37",
+   "snes_addr": "$82CA37",
+   "orig_bytes": 5,
+   "position": null,
+   "japanese": "０２",
+   "english": null,
+   "status": "n/a",
+   "notes": "Spaces/digits/symbols only; converted mechanically."
+  },
+  {
+   "id": "t014A41",
+   "rom_offset": "0x014A41",
+   "snes_addr": "$82CA41",
+   "orig_bytes": 5,
+   "position": null,
+   "japanese": "０３",
+   "english": null,
+   "status": "n/a",
+   "notes": "Spaces/digits/symbols only; converted mechanically."
+  },
+  {
+   "id": "t014A4B",
+   "rom_offset": "0x014A4B",
+   "snes_addr": "$82CA4B",
+   "orig_bytes": 5,
+   "position": null,
+   "japanese": "０４",
+   "english": null,
+   "status": "n/a",
+   "notes": "Spaces/digits/symbols only; converted mechanically."
+  },
+  {
+   "id": "t014A55",
+   "rom_offset": "0x014A55",
+   "snes_addr": "$82CA55",
+   "orig_bytes": 5,
+   "position": null,
+   "japanese": "０５",
+   "english": null,
+   "status": "n/a",
+   "notes": "Spaces/digits/symbols only; converted mechanically."
+  },
+  {
+   "id": "t014A5F",
+   "rom_offset": "0x014A5F",
+   "snes_addr": "$82CA5F",
+   "orig_bytes": 5,
+   "position": null,
+   "japanese": "０６",
+   "english": null,
+   "status": "n/a",
+   "notes": "Spaces/digits/symbols only; converted mechanically."
+  },
+  {
+   "id": "t014A69",
+   "rom_offset": "0x014A69",
+   "snes_addr": "$82CA69",
+   "orig_bytes": 5,
+   "position": null,
+   "japanese": "０７",
+   "english": null,
+   "status": "n/a",
+   "notes": "Spaces/digits/symbols only; converted mechanically."
+  },
+  {
+   "id": "t014A73",
+   "rom_offset": "0x014A73",
+   "snes_addr": "$82CA73",
+   "orig_bytes": 5,
+   "position": null,
+   "japanese": "０８",
+   "english": null,
+   "status": "n/a",
+   "notes": "Spaces/digits/symbols only; converted mechanically."
+  },
+  {
+   "id": "t014A7D",
+   "rom_offset": "0x014A7D",
+   "snes_addr": "$82CA7D",
+   "orig_bytes": 5,
+   "position": null,
+   "japanese": "０９",
+   "english": null,
+   "status": "n/a",
+   "notes": "Spaces/digits/symbols only; converted mechanically."
+  },
+  {
+   "id": "t014A87",
+   "rom_offset": "0x014A87",
+   "snes_addr": "$82CA87",
+   "orig_bytes": 5,
+   "position": null,
+   "japanese": "１０",
+   "english": null,
+   "status": "n/a",
+   "notes": "Spaces/digits/symbols only; converted mechanically."
+  },
+  {
+   "id": "t014A91",
+   "rom_offset": "0x014A91",
+   "snes_addr": "$82CA91",
+   "orig_bytes": 5,
+   "position": null,
+   "japanese": "１１",
+   "english": null,
+   "status": "n/a",
+   "notes": "Spaces/digits/symbols only; converted mechanically."
+  },
+  {
+   "id": "t014A9B",
+   "rom_offset": "0x014A9B",
+   "snes_addr": "$82CA9B",
+   "orig_bytes": 5,
+   "position": null,
+   "japanese": "１２",
+   "english": null,
+   "status": "n/a",
+   "notes": "Spaces/digits/symbols only; converted mechanically."
+  },
+  {
+   "id": "t014AA5",
+   "rom_offset": "0x014AA5",
+   "snes_addr": "$82CAA5",
+   "orig_bytes": 5,
+   "position": null,
+   "japanese": "１３",
+   "english": null,
+   "status": "n/a",
+   "notes": "Spaces/digits/symbols only; converted mechanically."
+  },
+  {
+   "id": "t014AAF",
+   "rom_offset": "0x014AAF",
+   "snes_addr": "$82CAAF",
+   "orig_bytes": 5,
+   "position": null,
+   "japanese": "１４",
+   "english": null,
+   "status": "n/a",
+   "notes": "Spaces/digits/symbols only; converted mechanically."
+  },
+  {
+   "id": "t014AB9",
+   "rom_offset": "0x014AB9",
+   "snes_addr": "$82CAB9",
+   "orig_bytes": 5,
+   "position": null,
+   "japanese": "１５",
+   "english": null,
+   "status": "n/a",
+   "notes": "Spaces/digits/symbols only; converted mechanically."
+  },
+  {
+   "id": "t014AC3",
+   "rom_offset": "0x014AC3",
+   "snes_addr": "$82CAC3",
+   "orig_bytes": 5,
+   "position": null,
+   "japanese": "１６",
+   "english": null,
+   "status": "n/a",
+   "notes": "Spaces/digits/symbols only; converted mechanically."
+  },
+  {
+   "id": "t014ACD",
+   "rom_offset": "0x014ACD",
+   "snes_addr": "$82CACD",
+   "orig_bytes": 5,
+   "position": null,
+   "japanese": "１７",
+   "english": null,
+   "status": "n/a",
+   "notes": "Spaces/digits/symbols only; converted mechanically."
+  },
+  {
+   "id": "t014AD7",
+   "rom_offset": "0x014AD7",
+   "snes_addr": "$82CAD7",
+   "orig_bytes": 5,
+   "position": null,
+   "japanese": "１８",
+   "english": null,
+   "status": "n/a",
+   "notes": "Spaces/digits/symbols only; converted mechanically."
+  },
+  {
+   "id": "t014AE1",
+   "rom_offset": "0x014AE1",
+   "snes_addr": "$82CAE1",
+   "orig_bytes": 5,
+   "position": null,
+   "japanese": "１９",
+   "english": null,
+   "status": "n/a",
+   "notes": "Spaces/digits/symbols only; converted mechanically."
+  },
+  {
+   "id": "t014AEB",
+   "rom_offset": "0x014AEB",
+   "snes_addr": "$82CAEB",
+   "orig_bytes": 5,
+   "position": null,
+   "japanese": "２０",
+   "english": null,
+   "status": "n/a",
+   "notes": "Spaces/digits/symbols only; converted mechanically."
+  },
+  {
+   "id": "t014AFB",
+   "rom_offset": "0x014AFB",
+   "snes_addr": "$82CAFB",
+   "orig_bytes": 7,
+   "position": null,
+   "japanese": "Ｌ　　",
+   "english": null,
+   "status": "n/a",
+   "notes": "Spaces/digits/symbols only; converted mechanically."
+  },
+  {
+   "id": "t014B07",
+   "rom_offset": "0x014B07",
+   "snes_addr": "$82CB07",
+   "orig_bytes": 7,
+   "position": null,
+   "japanese": "Ｒ　　",
+   "english": null,
+   "status": "n/a",
+   "notes": "Spaces/digits/symbols only; converted mechanically."
+  },
+  {
+   "id": "t014B13",
+   "rom_offset": "0x014B13",
+   "snes_addr": "$82CB13",
+   "orig_bytes": 7,
+   "position": null,
+   "japanese": "Ｌ＋Ｒ",
+   "english": null,
+   "status": "n/a",
+   "notes": "Spaces/digits/symbols only; converted mechanically."
+  },
+  {
+   "id": "t014B61",
+   "rom_offset": "0x014B61",
+   "snes_addr": "$82CB61",
+   "orig_bytes": 15,
+   "position": {
+    "col": 9,
+    "row": 10
+   },
+   "japanese": "　　　＾　　　",
+   "english": null,
+   "status": "n/a",
+   "notes": "Spaces/digits/symbols only; converted mechanically."
+  },
+  {
+   "id": "t014C68",
+   "rom_offset": "0x014C68",
+   "snes_addr": "$82CC68",
+   "orig_bytes": 13,
+   "position": null,
+   "japanese": "ＮＯＲＭＡＬ",
+   "english": "NORMAL",
+   "status": "translated",
+   "notes": "Already English (full-width); converted to ASCII."
+  },
+  {
+   "id": "t014C7E",
+   "rom_offset": "0x014C7E",
+   "snes_addr": "$82CC7E",
+   "orig_bytes": 13,
+   "position": null,
+   "japanese": "　　ＥＡＳＹ",
+   "english": "  EASY",
+   "status": "translated",
+   "notes": "Already English (full-width); converted to ASCII."
+  },
+  {
+   "id": "t014C94",
+   "rom_offset": "0x014C94",
+   "snes_addr": "$82CC94",
+   "orig_bytes": 13,
+   "position": null,
+   "japanese": "　　ＨＡＲＤ",
+   "english": "  HARD",
+   "status": "translated",
+   "notes": "Already English (full-width); converted to ASCII."
+  },
+  {
+   "id": "t014E2F",
+   "rom_offset": "0x014E2F",
+   "snes_addr": "$82CE2F",
+   "orig_bytes": 13,
+   "position": {
+    "col": 6,
+    "row": 5
+   },
+   "japanese": "ＶＩＳＵＡＬ",
+   "english": "VISUAL",
+   "status": "translated",
+   "notes": ""
+  },
+  {
+   "id": "t014E47",
+   "rom_offset": "0x014E47",
+   "snes_addr": "$82CE47",
+   "orig_bytes": 11,
+   "position": {
+    "col": 6,
+    "row": 8
+   },
+   "japanese": "プレイヤー",
+   "english": "LIVES",
+   "status": "translated",
+   "notes": ""
+  },
+  {
+   "id": "t014E5D",
+   "rom_offset": "0x014E5D",
+   "snes_addr": "$82CE5D",
+   "orig_bytes": 11,
+   "position": {
+    "col": 6,
+    "row": 11
+   },
+   "japanese": "ＬＥＶＥＬ",
+   "english": "LEVEL",
+   "status": "translated",
+   "notes": ""
+  },
+  {
+   "id": "t014E73",
+   "rom_offset": "0x014E73",
+   "snes_addr": "$82CE73",
+   "orig_bytes": 13,
+   "position": {
+    "col": 6,
+    "row": 14
+   },
+   "japanese": "ＢＧＭテスト",
+   "english": "BGM TEST",
+   "status": "translated",
+   "notes": ""
+  },
+  {
+   "id": "t014E8B",
+   "rom_offset": "0x014E8B",
+   "snes_addr": "$82CE8B",
+   "orig_bytes": 11,
+   "position": {
+    "col": 6,
+    "row": 17
+   },
+   "japanese": "ＳＥテスト",
+   "english": "SE TEST",
+   "status": "translated",
+   "notes": ""
+  },
+  {
+   "id": "t014EA1",
+   "rom_offset": "0x014EA1",
+   "snes_addr": "$82CEA1",
+   "orig_bytes": 9,
+   "position": {
+    "col": 6,
+    "row": 20
+   },
+   "japanese": "ＥＸＩＴ",
+   "english": "EXIT",
+   "status": "translated",
+   "notes": ""
+  },
+  {
+   "id": "t014EB5",
+   "rom_offset": "0x014EB5",
+   "snes_addr": "$82CEB5",
+   "orig_bytes": 5,
+   "position": {
+    "col": 27,
+    "row": 14
+   },
+   "japanese": "００",
+   "english": null,
+   "status": "n/a",
+   "notes": "Spaces/digits/symbols only; converted mechanically."
+  },
+  {
+   "id": "t014EC5",
+   "rom_offset": "0x014EC5",
+   "snes_addr": "$82CEC5",
+   "orig_bytes": 5,
+   "position": {
+    "col": 27,
+    "row": 17
+   },
+   "japanese": "００",
+   "english": null,
+   "status": "n/a",
+   "notes": "Spaces/digits/symbols only; converted mechanically."
+  },
+  {
+   "id": "t014ED5",
+   "rom_offset": "0x014ED5",
+   "snes_addr": "$82CED5",
+   "orig_bytes": 29,
+   "position": {
+    "col": 15,
+    "row": 14
+   },
+   "japanese": "レッツゴー！ライダーキック３",
+   "english": "RIDER KICK 3",
+   "status": "translated",
+   "notes": ""
+  },
+  {
+   "id": "t014F52",
+   "rom_offset": "0x014F52",
+   "snes_addr": "$82CF52",
+   "orig_bytes": 7,
+   "position": null,
+   "japanese": "　ＯＮ",
+   "english": " ON",
+   "status": "translated",
+   "notes": "Already English (full-width); converted to ASCII."
+  },
+  {
+   "id": "t014F5F",
+   "rom_offset": "0x014F5F",
+   "snes_addr": "$82CF5F",
+   "orig_bytes": 7,
+   "position": null,
+   "japanese": "ＯＦＦ",
+   "english": "OFF",
+   "status": "translated",
+   "notes": "Already English (full-width); converted to ASCII."
+  },
+  {
+   "id": "t01519B",
+   "rom_offset": "0x01519B",
+   "snes_addr": "$82D19B",
+   "orig_bytes": 29,
+   "position": null,
+   "japanese": "レッツゴー！ライダーキック３",
+   "english": "  RIDER KICK 3",
+   "status": "translated",
+   "notes": ""
+  },
+  {
+   "id": "t0151BD",
+   "rom_offset": "0x0151BD",
+   "snes_addr": "$82D1BD",
+   "orig_bytes": 29,
+   "position": null,
+   "japanese": "　　　　　復活！仮面ライダー",
+   "english": " RIDER RETURNS",
+   "status": "translated",
+   "notes": ""
+  },
+  {
+   "id": "t0151DF",
+   "rom_offset": "0x0151DF",
+   "snes_addr": "$82D1DF",
+   "orig_bytes": 29,
+   "position": null,
+   "japanese": "レッツゴー！ライダーキック１",
+   "english": "  RIDER KICK 1",
+   "status": "translated",
+   "notes": ""
+  },
+  {
+   "id": "t015201",
+   "rom_offset": "0x015201",
+   "snes_addr": "$82D201",
+   "orig_bytes": 29,
+   "position": null,
+   "japanese": "　　　　　戦え！仮面ライダー",
+   "english": "   FIGHT RIDER",
+   "status": "translated",
+   "notes": ""
+  },
+  {
+   "id": "t015223",
+   "rom_offset": "0x015223",
+   "snes_addr": "$82D223",
+   "orig_bytes": 29,
+   "position": null,
+   "japanese": "レッツゴー！ライダーキック２",
+   "english": "  RIDER KICK 2",
+   "status": "translated",
+   "notes": ""
+  },
+  {
+   "id": "t015245",
+   "rom_offset": "0x015245",
+   "snes_addr": "$82D245",
+   "orig_bytes": 29,
+   "position": null,
+   "japanese": "　　　　　やったぜ！ライダー",
+   "english": "  NICE, RIDER!",
+   "status": "translated",
+   "notes": ""
+  },
+  {
+   "id": "t015267",
+   "rom_offset": "0x015267",
+   "snes_addr": "$82D267",
+   "orig_bytes": 29,
+   "position": null,
+   "japanese": "レッツゴー！ライダーキック４",
+   "english": "  RIDER KICK 4",
+   "status": "translated",
+   "notes": ""
+  },
+  {
+   "id": "t015289",
+   "rom_offset": "0x015289",
+   "snes_addr": "$82D289",
+   "orig_bytes": 29,
+   "position": null,
+   "japanese": "　　　　　　　ＳＳＩシステム",
+   "english": "    SSI SYSTEM",
+   "status": "translated",
+   "notes": ""
+  },
+  {
+   "id": "t0152AB",
+   "rom_offset": "0x0152AB",
+   "snes_addr": "$82D2AB",
+   "orig_bytes": 29,
+   "position": null,
+   "japanese": "　　　　　ライダーアクション",
+   "english": "  RIDER ACTION",
+   "status": "translated",
+   "notes": ""
+  },
+  {
+   "id": "t0152CD",
+   "rom_offset": "0x0152CD",
+   "snes_addr": "$82D2CD",
+   "orig_bytes": 29,
+   "position": null,
+   "japanese": "　　　　　　戦え！サイクロン",
+   "english": "  GO, CYCLONE!",
+   "status": "translated",
+   "notes": ""
+  },
+  {
+   "id": "t0152EF",
+   "rom_offset": "0x0152EF",
+   "snes_addr": "$82D2EF",
+   "orig_bytes": 29,
+   "position": null,
+   "japanese": "　　　　　ライダーファイト！",
+   "english": "  RIDER FIGHT!",
+   "status": "translated",
+   "notes": ""
+  },
+  {
+   "id": "t015311",
+   "rom_offset": "0x015311",
+   "snes_addr": "$82D311",
+   "orig_bytes": 29,
+   "position": null,
+   "japanese": "　　　　　　ショッカー復活！",
+   "english": "SHOCKER LIVES!",
+   "status": "translated",
+   "notes": ""
+  },
+  {
+   "id": "t015333",
+   "rom_offset": "0x015333",
+   "snes_addr": "$82D333",
+   "orig_bytes": 29,
+   "position": null,
+   "japanese": "　　　　　あやかしの改造人間",
+   "english": "PHANTOM CYBORG",
+   "status": "translated",
+   "notes": ""
+  },
+  {
+   "id": "t015355",
+   "rom_offset": "0x015355",
+   "snes_addr": "$82D355",
+   "orig_bytes": 29,
+   "position": null,
+   "japanese": "　　　　　行くぞ！Ｗライダー",
+   "english": " GO, W RIDERS!",
+   "status": "translated",
+   "notes": ""
+  },
+  {
+   "id": "t015377",
+   "rom_offset": "0x015377",
+   "snes_addr": "$82D377",
+   "orig_bytes": 29,
+   "position": null,
+   "japanese": "　戦慄！ショッカー首領の正体",
+   "english": "LEADER UNMASKD",
+   "status": "translated",
+   "notes": ""
+  },
+  {
+   "id": "t015399",
+   "rom_offset": "0x015399",
+   "snes_addr": "$82D399",
+   "orig_bytes": 29,
+   "position": null,
+   "japanese": "　　　　　　　　　悪魔の計画",
+   "english": "  DEVIL'S PLAN",
+   "status": "translated",
+   "notes": ""
+  },
+  {
+   "id": "t0153BB",
+   "rom_offset": "0x0153BB",
+   "snes_addr": "$82D3BB",
+   "orig_bytes": 29,
+   "position": null,
+   "japanese": "　　　　　　　藤兵衛のテーマ",
+   "english": " TOBEI'S THEME",
+   "status": "translated",
+   "notes": ""
+  },
+  {
+   "id": "t0153DD",
+   "rom_offset": "0x0153DD",
+   "snes_addr": "$82D3DD",
+   "orig_bytes": 29,
+   "position": null,
+   "japanese": "　　　　　　　史上最大の決戦",
+   "english": "FINAL SHOWDOWN",
+   "status": "translated",
+   "notes": ""
+  },
+  {
+   "id": "t0153FF",
+   "rom_offset": "0x0153FF",
+   "snes_addr": "$82D3FF",
+   "orig_bytes": 29,
+   "position": null,
+   "japanese": "　　　　　　　ゲームオーバー",
+   "english": "     GAME OVER",
+   "status": "translated",
+   "notes": ""
+  },
+  {
+   "id": "t015421",
+   "rom_offset": "0x015421",
+   "snes_addr": "$82D421",
+   "orig_bytes": 29,
+   "position": null,
+   "japanese": "　　　　　　恐怖のショッカー",
+   "english": "SHOCKER TERROR",
+   "status": "translated",
+   "notes": ""
+  },
+  {
+   "id": "t015443",
+   "rom_offset": "0x015443",
+   "snes_addr": "$82D443",
+   "orig_bytes": 29,
+   "position": null,
+   "japanese": "　　　　　　さらば戦いの日々",
+   "english": " FAREWELL, WAR",
+   "status": "translated",
+   "notes": ""
+  },
+  {
+   "id": "t05FA81",
+   "rom_offset": "0x05FA81",
+   "snes_addr": "$8BFA81",
+   "orig_bytes": 11,
+   "position": {
+    "col": 2,
+    "row": 10
+   },
+   "japanese": "パスワード",
+   "english": "PASSWORD",
+   "status": "translated",
+   "notes": ""
+  },
+  {
+   "id": "t05FC09",
+   "rom_offset": "0x05FC09",
+   "snes_addr": "$8BFC09",
+   "orig_bytes": 29,
+   "position": {
+    "col": 9,
+    "row": 2
+   },
+   "japanese": "パスワードが　ちがいます　　",
+   "english": "WRONG PASSWORD",
+   "status": "translated",
+   "notes": ""
+  },
+  {
+   "id": "t05FC4A",
+   "rom_offset": "0x05FC4A",
+   "snes_addr": "$8BFC4A",
+   "orig_bytes": 29,
+   "position": {
+    "col": 9,
+    "row": 2
+   },
+   "japanese": "パスワードを　いれてください",
+   "english": "ENTER PASSWORD",
+   "status": "translated",
+   "notes": ""
+  },
+  {
+   "id": "t12765A",
+   "rom_offset": "0x12765A",
+   "snes_addr": "$A4F65A",
+   "orig_bytes": 19,
+   "position": {
+    "col": 10,
+    "row": 8
+   },
+   "japanese": "ＴＯＫＡＧＥＲＯＮ",
+   "english": "TOKAGERON",
+   "status": "translated",
+   "notes": "Already English (full-width); converted to ASCII."
+  },
+  {
+   "id": "t1276A9",
+   "rom_offset": "0x1276A9",
+   "snes_addr": "$A4F6A9",
+   "orig_bytes": 21,
+   "position": {
+    "col": 10,
+    "row": 6
+   },
+   "japanese": "ＯＫＡＭＩＯＴＯＫＯ",
+   "english": "OKAMIOTOKO",
+   "status": "translated",
+   "notes": "Already English (full-width); converted to ASCII."
+  },
+  {
+   "id": "t1276FA",
+   "rom_offset": "0x1276FA",
+   "snes_addr": "$A4F6FA",
+   "orig_bytes": 23,
+   "position": {
+    "col": 10,
+    "row": 6
+   },
+   "japanese": "ＧＡＲＡＧＡＲＡＮＤＡ",
+   "english": "GARAGARANDA",
+   "status": "translated",
+   "notes": "Already English (full-width); converted to ASCII."
+  },
+  {
+   "id": "t12774D",
+   "rom_offset": "0x12774D",
+   "snes_addr": "$A4F74D",
+   "orig_bytes": 33,
+   "position": {
+    "col": 10,
+    "row": 6
+   },
+   "japanese": "ＩＫＡＤＥＶＩＬ　　　　　　　　",
+   "english": "IKADEVIL        ",
+   "status": "translated",
+   "notes": "Already English (full-width); converted to ASCII."
+  },
+  {
+   "id": "t1277AD",
+   "rom_offset": "0x1277AD",
+   "snes_addr": "$A4F7AD",
+   "orig_bytes": 27,
+   "position": {
+    "col": 10,
+    "row": 6
+   },
+   "japanese": "ＨＩＲＵＣＨＡＭＥＬＥＯＮ",
+   "english": "HIRUCHAMELEON",
+   "status": "translated",
+   "notes": "Already English (full-width); converted to ASCII."
+  },
+  {
+   "id": "t127807",
+   "rom_offset": "0x127807",
+   "snes_addr": "$A4F807",
+   "orig_bytes": 29,
+   "position": {
+    "col": 10,
+    "row": 6
+   },
+   "japanese": "ＤＥＡＴＨ　ＢＡＮＥＡＴＥＲ",
+   "english": "DEATH BANEATER",
+   "status": "translated",
+   "notes": "Already English (full-width); converted to ASCII."
+  },
+  {
+   "id": "t127856",
+   "rom_offset": "0x127856",
+   "snes_addr": "$A4F856",
+   "orig_bytes": 39,
+   "position": {
+    "col": 6,
+    "row": 8
+   },
+   "japanese": "ＰＲＥＳＥＮＴＥＤ　ＢＹ　ＢＡＮＤＡＩ",
+   "english": "PRESENTED BY BANDAI",
+   "status": "translated",
+   "notes": "Already English (full-width); converted to ASCII."
+  },
+  {
+   "id": "t127888",
+   "rom_offset": "0x127888",
+   "snes_addr": "$A4F888",
+   "orig_bytes": 43,
+   "position": {
+    "col": 5,
+    "row": 12
+   },
+   "japanese": "ＴＨＡＮＫ　ＹＯＵ　ＦＯＲ　ＰＬＡＹＩＮＧ",
+   "english": "THANK YOU FOR PLAYING",
+   "status": "translated",
+   "notes": "Already English (full-width); converted to ASCII."
+  },
+  {
+   "id": "t1278BE",
+   "rom_offset": "0x1278BE",
+   "snes_addr": "$A4F8BE",
+   "orig_bytes": 27,
+   "position": {
+    "col": 5,
+    "row": 16
+   },
+   "japanese": "　　　　　　ＴＨＥ　ＥＮＤ",
+   "english": "      THE END",
+   "status": "translated",
+   "notes": "Already English (full-width); converted to ASCII."
+  }
+ ],
+ "graphics": [
+  {
+   "id": "hud_name_p1",
+   "rom_offset": "0x0182EB",
+   "what": "HUD player 1 name (64x16 graphic above life bar)",
+   "japanese": "本郷 猛",
+   "romaji": "Hongō Takeshi",
+   "english": "HONGO",
+   "status": "translated",
+   "notes": "Family name (how the character is generally known). Given names stay as-is in dialogue. Drawn by tools/hud_names.py with the English 8x16 capitals, max 64px (A-Z and space only)."
+  },
+  {
+   "id": "hud_name_p2",
+   "rom_offset": "0x0182EB",
+   "what": "HUD player 2 name (64x16 graphic above life bar)",
+   "japanese": "一文字 隼人",
+   "romaji": "Ichimonji Hayato",
+   "english": "ICHIMONJI",
+   "status": "translated",
+   "notes": "Family name (how the character is generally known). Exactly 64px wide - the maximum. Given names stay as-is in dialogue."
+  },
+  {
+   "id": "ssi_question_name",
+   "rom_offset": "0x0872BD",
+   "what": "Speaker name under the portrait on the SSI training question screen (baked into the screen layout)",
+   "japanese": "藤 兵 衛",
+   "romaji": "Tōbei",
+   "english": "TOBEI",
+   "status": "translated",
+   "notes": "Written into the pre-built tilemap at row 12, starting col 2, with the English 8x16 font. Max 6 characters (portrait width)."
+  },
+  {
+   "id": "hud_name_rider1",
+   "rom_offset": "0x0182EB",
+   "what": "HUD player 1 name after transforming (64x16 graphic above life bar)",
+   "japanese": "仮面ライダー1号",
+   "romaji": "Kamen Raidā 1-gō",
+   "english": "RIDER NO.1",
+   "status": "translated",
+   "notes": "Same HUD graphics set as the normal names. Max 64px (A-Z, 0-9, space, '.', '-'). 'KAMEN RIDER 1' is 85px - too wide."
+  },
+  {
+   "id": "hud_name_rider2",
+   "rom_offset": "0x0182EB",
+   "what": "HUD player 2 name after transforming (64x16 graphic above life bar)",
+   "japanese": "仮面ライダー2号",
+   "romaji": "Kamen Raidā 2-gō",
+   "english": "RIDER NO.2",
+   "status": "translated",
+   "notes": "Same HUD graphics set as the normal names. Max 64px (A-Z, 0-9, space, '.', '-'). 'KAMEN RIDER 1' is 85px - too wide."
+  }
+ ]
+}
